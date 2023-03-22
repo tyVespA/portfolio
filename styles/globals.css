@@ -76,7 +76,6 @@ h6 {
   END OF RESET
 */
 
-body,
 body[data-theme="light"] {
   --color-text-primary: #27201a;
   --color-text-secondary: #076963;
