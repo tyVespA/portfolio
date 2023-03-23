@@ -1,22 +1,16 @@
 import React from "react";
 import styles from "../components/ThemeToggle.module.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
+import { ThemeContext } from "@/pages/_app";
 
 export default function ThemeToggle() {
-  const [activeTheme, setActiveTheme] = useState("light");
-  const inactiveTheme = activeTheme === "light" ? "dark" : "light";
-
-  useEffect(() => {
-    document.body.dataset.theme = activeTheme;
-  }, [activeTheme]);
+  const { activeTheme, toggleTheme } = useContext(ThemeContext);
+  const isLightTheme = activeTheme === "light";
 
   return (
     <div>
-      <button
-        className={styles.button}
-        onClick={() => setActiveTheme(inactiveTheme)}
-      >
-        🌙
+      <button className={styles.button} onClick={toggleTheme}>
+        {isLightTheme ? "🌙" : "☀️"}
       </button>
     </div>
   );
