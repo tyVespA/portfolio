@@ -4,7 +4,21 @@ import { useState, useEffect, useContext } from "react";
 import { ThemeContext } from "@/pages/_app";
 
 export default function ThemeToggle() {
-  const { activeTheme, toggleTheme } = useContext(ThemeContext);
+  const { activeTheme, setActiveTheme } = useContext(ThemeContext);
+  const toggleTheme = () => {
+    setActiveTheme(activeTheme === "light" ? "dark" : "light");
+  };
+
+  useEffect(() => {
+    const storedTheme = window.localStorage.getItem("theme");
+    storedTheme && setActiveTheme(storedTheme);
+  }, []);
+
+  useEffect(() => {
+    document.body.dataset.theme = activeTheme;
+    window.localStorage.setItem("theme", activeTheme);
+  }, [activeTheme]);
+
   const isLightTheme = activeTheme === "light";
 
   return (

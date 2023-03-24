@@ -7,15 +7,7 @@ export const ThemeContext = React.createContext();
 export default function App({ Component, pageProps }) {
   const [activeTheme, setActiveTheme] = useState("light");
 
-  useEffect(() => {
-    document.body.dataset.theme = activeTheme;
-  }, [activeTheme]);
-
-  const toggleTheme = () => {
-    setActiveTheme(activeTheme === "light" ? "dark" : "light");
-  };
-
-  const value = { activeTheme, toggleTheme };
+  const value = { activeTheme, setActiveTheme };
   return (
     <ThemeContext.Provider value={value}>
       <Component {...pageProps} />
