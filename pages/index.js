@@ -6,6 +6,9 @@ import Layout from "@/components/Layout";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
+import ProjectsSection from "@/components/ProjectsSection";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -24,7 +27,14 @@ export default function Home() {
         <section>
           <Skills />
         </section>
-        <Link href="/projects">Projects</Link>
+        <section>
+          <ProjectsSection />
+        </section>
+        <section>
+          <Contact />
+        </section>
+        <Footer />
+        {/* <Link href="/projects">Projects</Link> */}
       </Layout>
     </>
   );
