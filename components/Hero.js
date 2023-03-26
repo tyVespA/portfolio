@@ -16,7 +16,7 @@ export default function Hero() {
         width={896 / 4}
         alt="Hero picture"
         style={{ marginBottom: 30 }}
-      ></Image>
+      />
       <section className={styles.heroText}>
         <div>
           <p>
