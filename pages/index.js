@@ -2,8 +2,9 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
-import Navbar from "@/components/Navbar";
 import Layout from "@/components/Layout";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
@@ -16,7 +17,9 @@ export default function Home() {
       </Head>
       <Layout>
         <Navbar />
-        <h1>Main</h1>
+        <section>
+          <Hero />
+        </section>
         <Link href="/projects">Projects</Link>
       </Layout>
     </>
