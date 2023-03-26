@@ -47,10 +47,40 @@
   margin-inline: auto;
 }
 
+@media screen and (max-width: 630px) {
+  .titleSection {
+    display: block;
+  }
+  .heroTitle {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
 .heroText {
   display: flex;
   justify-content: space-between;
   gap: 50px;
+}
+
+@media screen and (max-width: 630px) {
+  .titleSection {
+    display: block;
+  }
+  .heroTitle {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .heroText {
+    display: block;
+    text-align: center;
+  }
+  .heroText div {
+    margin-inline: auto;
+  }
+  .heroText div:first-child {
+    margin-bottom: 20px;
+  }
 }
 
 .heroText div {

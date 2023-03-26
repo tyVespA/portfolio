@@ -140,3 +140,15 @@ h1 {
 h2 {
   font-size: 2rem;
 }
+
+/*
+  HELPER CLASSES
+*/
+
+.hidden {
+  filter: opacity(0);
+}
+
+.translatedY {
+  transform: translateY(10px);
+}
