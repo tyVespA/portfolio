@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import Layout from "@/components/Layout";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
         <Navbar />
         <section>
           <Hero />
+        </section>
+        <section>
+          <Skills />
         </section>
         <Link href="/projects">Projects</Link>
       </Layout>
