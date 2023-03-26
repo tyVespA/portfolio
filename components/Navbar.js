@@ -6,12 +6,10 @@ import styles from "../styles/Navbar.module.css";
 export default function Navbar() {
   return (
     <>
-      <Layout>
-        <div className={styles.container}>
-          <p>Navbar</p>
-          <ThemeToggle />
-        </div>
-      </Layout>
+      <div className={styles.container}>
+        <p>Navbar</p>
+        <ThemeToggle />
+      </div>
     </>
   );
 }
