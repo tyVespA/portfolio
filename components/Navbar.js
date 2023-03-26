@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <>
       <div className={styles.container}>
-        <p>Navbar</p>
+        <p>Navbar Logo</p>
         <ThemeToggle />
       </div>
     </>
