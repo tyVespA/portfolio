@@ -6,8 +6,12 @@ export default function Hero() {
   return (
     <>
       <h1 className={styles.heroTitle}>
-        Ciao, sono Marco. <br />
-        Front End <span className={styles.accented}>Developer</span>, <br />
+        Ciao👋, sono Marco. <br />
+        Front End{" "}
+        <span className={`${styles.accented} ${styles.animatedGradient}`}>
+          Developer
+        </span>
+        , <br />
         etc etc
       </h1>
       <Image
