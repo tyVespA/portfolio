@@ -21,10 +21,10 @@
 /*
   3. Allow percentage-based heights in the application
 */
-html,
+/* html,
 body {
   height: 100%;
-}
+} */
 /*
   Typographic tweaks!
   4. Add accessible line-height
@@ -96,6 +96,7 @@ body {
 body[data-theme="light"] {
   --color-text-primary: #27201a;
   --color-text-secondary: #7ae2c8;
+  --color-text-accent: #ff9c62;
   --color-bg-primary: #fff;
   --color-bg-toggle: #1e90ff;
 }
@@ -103,6 +104,7 @@ body[data-theme="light"] {
 body[data-theme="dark"] {
   --color-text-primary: #e3e3e3;
   --color-text-secondary: #ff6b00;
+  --color-text-accent: #ff9c62;
   --color-bg-primary: #15232d;
   --color-bg-toggle: #a9a9a9;
 }
@@ -116,4 +118,12 @@ body {
 
 h1 {
   color: var(--color-text-secondary);
+}
+
+/*
+  BASE TWEAKS
+*/
+
+a {
+  color: inherit;
 }
