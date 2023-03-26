@@ -5,22 +5,25 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <h1 className={styles.heroTitle}>
-        Ciao👋, sono Marco. <br />
-        Front End{" "}
-        <span className={`${styles.accented} ${styles.animatedGradient}`}>
-          Developer
-        </span>
-        , <br />
-        etc etc
-      </h1>
-      <Image
-        src="/images/profile.jpg"
-        height={1100 / 4}
-        width={896 / 4}
-        alt="Hero picture"
-        style={{ marginBottom: 30 }}
-      />
+      <div className={styles.titleSection} style={{ marginBottom: 30 }}>
+        <div className={styles.heroTitle}>
+          <h1>Ciao👋, sono Marco.</h1>
+          <h2>
+            Front End{" "}
+            <span className={`${styles.accented} ${styles.animatedGradient}`}>
+              Developer
+            </span>
+          </h2>
+          <h2>etc etc</h2>
+        </div>
+        <Image
+          src="/images/profile.jpg"
+          height={1100 / 4}
+          width={896 / 4}
+          alt="Hero picture"
+          className={styles.heroImage}
+        />
+      </div>
       <section className={styles.heroText}>
         <div>
           <p>
