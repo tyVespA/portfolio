@@ -1,15 +1,10 @@
 .heroTitle {
   margin-bottom: 50px;
-  font-size: 2.5rem;
   line-height: 1.35;
 }
 
 .accented {
   color: var(--color-text-accent);
-}
-
-.heroImage {
-  margin-bottom: 30px;
 }
 
 .heroText {
