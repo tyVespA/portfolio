@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function Skills() {
   return (
     <>
-      <h2 style={{ marginBottom: 20 }}>Cosa so:</h2>
-      <p style={{ marginBottom: 30 }}>
+      <h2 style={{ marginBottom: 20 }}>Le tecnologie che conosco e uso:</h2>
+      <p style={{ marginBottom: 40 }}>
         Lorem ipsum dlior sit amet consectetur adipisicing elit. Vliuptatibus
         neque esse quam odio veritatis maiores id omnis consequatur dliores
         nobis nostrum qui deserunt ratione, hic ipsa consequuntur nisi quae?
