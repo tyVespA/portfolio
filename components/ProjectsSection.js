@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/ProjectsSection.module.css";
+import ProjectCard from "./ProjectCard";
 
 export default function ProjectsSection() {
   return (
@@ -10,10 +11,34 @@ export default function ProjectsSection() {
         illo vero nam numquam sed eius molestias reprehenderit quaerat, aliquam
         libero cum suscipit quo dolor laborum soluta. Amet, nobis optio.
       </p>
-      <p>Project1</p>
-      <p>Project1</p>
-      <p>Project1</p>
-      <p>Project1</p>
+      <div className={styles.projectsContainer} style={{ marginBottom: 80 }}>
+        <ProjectCard
+          src="/images/pexels-polina-zimmerman-3747503.jpg"
+          title="Project 1"
+          description="Lorem isapdasjd"
+          href="/projects"
+        />
+        <ProjectCard
+          src="/images/pexels-polina-zimmerman-3747503.jpg"
+          title="Project 1"
+          description="Lorem isapdasjd"
+          href="/projects"
+        />
+      </div>
+      <div className={styles.projectsContainer}>
+        <ProjectCard
+          src="/images/pexels-polina-zimmerman-3747503.jpg"
+          title="Project 1"
+          description="Lorem isapdasjd"
+          href="/projects"
+        />
+        <ProjectCard
+          src="/images/pexels-polina-zimmerman-3747503.jpg"
+          title="Project 1"
+          description="Lorem isapdasjd"
+          href="/projects"
+        />
+      </div>
     </>
   );
 }
