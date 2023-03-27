@@ -5,7 +5,8 @@ import Image from "next/image";
 export default function Skills() {
   return (
     <>
-      <h2 style={{ marginBottom: 20 }}>Le tecnologie che conosco e uso:</h2>
+      {/* <h2 style={{ marginBottom: 20 }}>Le tecnologie che conosco e uso:</h2> */}
+      <h2 style={{ marginBottom: 20 }}>Le tecnologie </h2>
       <p style={{ marginBottom: 40 }}>
         Lorem ipsum dlior sit amet consectetur adipisicing elit. Vliuptatibus
         neque esse quam odio veritatis maiores id omnis consequatur dliores
@@ -75,6 +76,15 @@ export default function Skills() {
             alt="HTML5 Logo"
           />
           <p>Next.js</p>
+        </li>
+        <li>
+          <Image
+            src="/images/WordPress_blue_logo.svg.png"
+            height={32}
+            width={32}
+            alt="HTML5 Logo"
+          />
+          <p>Wordpress</p>
         </li>
         <li>
           <Image
