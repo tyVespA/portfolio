@@ -6,21 +6,34 @@ export default function Hero() {
   const [isVisible1, setIsVisible1] = useState(false);
   const [isVisible2, setIsVisible2] = useState(false);
   const [isVisible3, setIsVisible3] = useState(false);
+  const [isVisible4, setIsVisible4] = useState(false);
+  const [isVisible5, setIsVisible5] = useState(false);
 
   useEffect(() => {
     setIsVisible1(true);
+    // setIsVisible4(true);
 
     const timer1 = setTimeout(() => {
       setIsVisible2(true);
-    }, 1000);
+    }, 500);
 
     const timer2 = setTimeout(() => {
       setIsVisible3(true);
-    }, 2000);
+    }, 1000);
+
+    const timer3 = setTimeout(() => {
+      setIsVisible4(true);
+    }, 0);
+
+    const timer4 = setTimeout(() => {
+      setIsVisible5(true);
+    }, 0);
 
     return () => {
       clearTimeout(timer1);
       clearTimeout(timer2);
+      clearTimeout(timer3);
+      clearTimeout(timer4);
     };
   }, []);
 
@@ -52,10 +65,12 @@ export default function Hero() {
           height={1100 / 4}
           width={896 / 4}
           alt="Hero picture"
-          className={styles.heroImage}
+          className={`${styles.heroImage} ${isVisible4 ? "slideIn" : "hidden"}`}
         />
       </div>
-      <section className={styles.heroText}>
+      <section
+        className={`${styles.heroText} ${isVisible5 ? "fadeInText" : "hidden"}`}
+      >
         <div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque

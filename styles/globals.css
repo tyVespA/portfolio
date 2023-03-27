@@ -125,6 +125,10 @@ h2 {
   BASE TWEAKS
 */
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   color: inherit;
 }
@@ -147,24 +151,51 @@ h2 {
 
 .hidden {
   opacity: 0;
-  transition: all 1s;
 }
 
-.visible {
-  opacity: 1;
+.halfHidden {
+  opacity: 0.5;
 }
 
 .fadeIn {
-  animation: fadeInAnimation 1s linear;
+  animation: fadeInAnimation 1s ease-in-out;
 }
 
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
   100% {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+.slideIn {
+  animation: slideInAnimation 2s ease-in-out;
+}
+
+@keyframes slideInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fadeInText {
+  animation: fadeInTextInAnimation 3s linear;
+}
+
+@keyframes fadeInTextInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
