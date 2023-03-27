@@ -1,23 +1,54 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "../styles/Hero.module.css";
 import Image from "next/image";
 
 export default function Hero() {
+  const [isVisible1, setIsVisible1] = useState(false);
+  const [isVisible2, setIsVisible2] = useState(false);
+  const [isVisible3, setIsVisible3] = useState(false);
+
+  useEffect(() => {
+    setIsVisible1(true);
+
+    const timer1 = setTimeout(() => {
+      setIsVisible2(true);
+    }, 1000);
+
+    const timer2 = setTimeout(() => {
+      setIsVisible3(true);
+    }, 2000);
+
+    return () => {
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+    };
+  }, []);
+
   return (
     <>
       <div className={styles.titleSection} style={{ marginBottom: 30 }}>
         <div className={styles.heroTitle}>
-          <h1>Ciao👋, sono Marco.</h1>
+          <h2 className={isVisible1 ? "fadeIn" : "hidden"}>Heading 1</h2>
+          <h2 className={isVisible2 ? "fadeIn" : "hidden"}>Heading 2</h2>
+          <h2 className={isVisible3 ? "fadeIn" : "hidden"}>Heading 2</h2>
+          {/* <h1>Ciao👋, sono Marco.</h1> */}
           <h2>
-            Front End{" "}
+            {/* Front End{" "} */}
             <span className={`${styles.accented} ${styles.animatedGradient}`}>
-              Developer
+              {/* Developer */}
             </span>
           </h2>
-          <h2>etc etc</h2>
+          {/* <h2 className={isVisible ? "visible" : "hidden"}>etc etc</h2> */}
         </div>
-        <Image
+        {/* <Image
           src="/images/profile.jpg"
+          height={1100 / 4}
+          width={896 / 4}
+          alt="Hero picture"
+          className={styles.heroImage}
+        /> */}
+        <Image
+          src="/images/pexels-polina-zimmerman-3747503.jpg"
           height={1100 / 4}
           width={896 / 4}
           alt="Hero picture"
