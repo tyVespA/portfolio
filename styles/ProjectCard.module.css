@@ -1,4 +1,20 @@
+.imageWrapper {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
 .imageThumbnail {
   border-radius: 10px;
-  margin-bottom: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.imageThumbnail:hover {
+  transform: scale(1.1);
+}
+
+.projectLink {
+  font-family: "DM Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.9rem;
 }
