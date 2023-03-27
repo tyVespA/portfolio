@@ -7,10 +7,17 @@ export default function Footer() {
     <div className={styles.footer}>
       <p>Footer Logo</p>
       <div>
-        <Link href="https://github.com/tyVespA" className="underlineOnHover">
+        <Link
+          href="https://github.com/tyVespA"
+          className="underlineOnHover"
+          target="_blank"
+        >
           Github
         </Link>
-        <p>Contatti</p>
+
+        <a href="mailto:someone@example.com" className="underlineOnHover">
+          Contatti
+        </a>
       </div>
     </div>
   );
