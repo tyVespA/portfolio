@@ -59,6 +59,7 @@ export default function Hero() {
           width={896 / 4}
           alt="Hero picture"
           className={styles.heroImage}
+          style={{ objectFit: "contain" }}
         /> */}
         <Image
           src="/images/pexels-polina-zimmerman-3747503.jpg"
@@ -66,6 +67,7 @@ export default function Hero() {
           width={896 / 4}
           alt="Hero picture"
           className={`${styles.heroImage} ${isVisible4 ? "slideIn" : "hidden"}`}
+          style={{ objectFit: "contain" }}
         />
       </div>
       <section
