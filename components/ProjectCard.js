@@ -6,7 +6,7 @@ import styles from "../styles/ProjectCard.module.css";
 export default function ProjectCard({ src, title, description, href }) {
   const [isHovered, setIsHovered] = useState(false);
   return (
-    <div>
+    <div className={styles.projectCardWrapper}>
       <Link href={href}>
         <div
           className={styles.imageWrapper}
@@ -17,8 +17,10 @@ export default function ProjectCard({ src, title, description, href }) {
             src={src}
             width={500}
             height={300}
-            className={styles.imageThumbnail}
-            style={{ objectFit: "contain" }}
+            className={`${styles.imageThumbnail} ${
+              isHovered ? styles.zoomedIn : ""
+            }`}
+            style={{ objectFit: "cover", backgroundPosition: "center" }}
           />
         </div>
       </Link>
@@ -26,6 +28,8 @@ export default function ProjectCard({ src, title, description, href }) {
       <p style={{ marginBottom: 10 }}>{description}</p>
       <Link
         href={href}
+        onMouseOver={() => setIsHovered(true)}
+        onMouseOut={() => setIsHovered(false)}
         className={`${styles.projectLink} ${"underlineOnHover"} ${
           isHovered ? styles.underlined : ""
         }`}
