@@ -11,7 +11,7 @@ export default function ProjectsSection() {
         illo vero nam numquam sed eius molestias reprehenderit quaerat, aliquam
         libero cum suscipit quo dolor laborum soluta. Amet, nobis optio.
       </p>
-      <div className={styles.projectsContainer} style={{ marginBottom: 80 }}>
+      <div className={styles.projectsContainer} style={{ marginBottom: 50 }}>
         <ProjectCard
           src="/images/pexels-polina-zimmerman-3747503.jpg"
           title="Project 1"
