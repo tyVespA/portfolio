@@ -39,16 +39,16 @@ export default function Hero() {
 
   return (
     <>
-      <div className={styles.titleSection} style={{ marginBottom: 30 }}>
+      <div className={styles.titleSection}>
         <div className={styles.heroTitle}>
-          <h2 className={isVisible1 ? "fadeIn" : "hidden"}>Heading 1</h2>
+          <h2 className={isVisible1 ? "fadeIn" : "hidden"}>Heading 1 👋</h2>
           <h2 className={isVisible2 ? "fadeIn" : "hidden"}>Heading 2</h2>
           <h2 className={isVisible3 ? "fadeIn" : "hidden"}>Heading 2</h2>
           {/* <h1>Ciao👋, sono Marco.</h1> */}
           <h2>
             {/* Front End{" "} */}
             <span className={`${styles.accented} ${styles.animatedGradient}`}>
-              {/* Developer */}
+              Developer
             </span>
           </h2>
           {/* <h2 className={isVisible ? "visible" : "hidden"}>etc etc</h2> */}
