@@ -23,9 +23,14 @@
 }
 
 .contactForm input,
-.contactForm textarea {
+.contactForm textarea,
+.contactForm button {
+  border-radius: 15px;
   width: 100%;
-  padding: 5px 10px;
+  padding: 10px 20px;
+  border: transparent;
+  background-color: var(--color-text-ternary);
+  color: var(--color-bg-primary);
 }
 
 .firstRow {
@@ -35,10 +40,6 @@
 
 .textArea {
   resize: none;
-}
-
-.contactForm button {
-  padding: 5px;
 }
 
 .formSectionImage {
