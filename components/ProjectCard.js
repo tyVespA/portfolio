@@ -15,8 +15,8 @@ export default function ProjectCard({ src, title, description, href }) {
         >
           <Image
             src={src}
-            width={500}
-            height={300}
+            width={450}
+            height={260}
             className={`${styles.imageThumbnail} ${
               isHovered ? styles.zoomedIn : ""
             }`}
