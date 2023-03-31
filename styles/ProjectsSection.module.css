@@ -1,7 +1,11 @@
 .projectsContainer {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  gap: 75px;
+}
+
+.projectsContainer {
+  margin-bottom: 75px;
 }
 
 @media screen and (max-width: 800px) {

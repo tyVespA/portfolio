@@ -11,15 +11,15 @@ export default function ProjectsSection() {
         illo vero nam numquam sed eius molestias reprehenderit quaerat, aliquam
         libero cum suscipit quo dolor laborum soluta. Amet, nobis optio.
       </p>
-      <div className={styles.projectsContainer} style={{ marginBottom: 50 }}>
+      <div className={styles.projectsContainer}>
         <ProjectCard
-          src="/images/pexels-polina-zimmerman-3747503.jpg"
+          src="/images/projectsImages/recipes-website-desktop.png"
           title="Project 1"
           description="Lorem isapdasjd"
           href="/projects"
         />
         <ProjectCard
-          src="/images/pexels-polina-zimmerman-3747503.jpg"
+          src="/images/projectsImages/weather-page-desktop.png"
           title="Project 1"
           description="Lorem isapdasjd"
           href="/projects"
@@ -27,13 +27,13 @@ export default function ProjectsSection() {
       </div>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src="/images/pexels-polina-zimmerman-3747503.jpg"
+          src="/images/projectsImages/etch-a-sketch-desktop.png"
           title="Project 1"
           description="Lorem isapdasjd"
           href="/projects"
         />
         <ProjectCard
-          src="/images/pexels-polina-zimmerman-3747503.jpg"
+          src="/images/projectsImages/news-homepage-desktop.png"
           title="Project 1"
           description="Lorem isapdasjd"
           href="/projects"
