@@ -1,0 +1,49 @@
+.formSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.contactForm {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .formSection {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .contactForm {
+    flex-grow: 1;
+    max-width: 500px;
+  }
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.firstRow {
+  display: flex;
+  gap: 25px;
+}
+
+.textArea {
+  resize: none;
+}
+
+.contactForm button {
+  padding: 5px;
+}
+
+.formSectionImage {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
