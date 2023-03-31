@@ -41,9 +41,9 @@ export default function Hero() {
     <>
       <div className={styles.titleSection}>
         <div className={styles.heroTitle}>
-          <h2 className={isVisible1 ? "fadeIn" : "hidden"}>Heading 1 👋</h2>
-          <h2 className={isVisible2 ? "fadeIn" : "hidden"}>Heading 2</h2>
-          <h2 className={isVisible3 ? "fadeIn" : "hidden"}>Heading 2</h2>
+          <h2 className={isVisible1 ? "fadeIn" : "hidden"}>Line 1 👋</h2>
+          <h2 className={isVisible2 ? "fadeIn" : "hidden"}>Line 2</h2>
+          <h2 className={isVisible3 ? "fadeIn" : "hidden"}>Line 3</h2>
           {/* <h1>Ciao👋, sono Marco.</h1> */}
           <h2>
             {/* Front End{" "} */}
@@ -61,14 +61,15 @@ export default function Hero() {
           className={styles.heroImage}
           style={{ objectFit: "contain" }}
         /> */}
-        <Image
-          src="/images/pexels-polina-zimmerman-3747503.jpg"
-          height={1100 / 4}
-          width={896 / 4}
-          alt="Hero picture"
-          className={`${styles.heroImage} ${isVisible4 ? "slideIn" : "hidden"}`}
-          style={{ objectFit: "contain" }}
-        />
+        <div className={` ${styles.imageContainer}`}>
+          <Image
+            src="/images/pexels-polina-zimmerman-3747503.jpg"
+            height={1100 / 4}
+            width={896 / 4}
+            alt="Hero picture"
+            style={{ objectFit: "cover" }}
+          />
+        </div>
       </div>
       <section
         className={`${styles.heroText} ${isVisible5 ? "fadeInText" : "hidden"}`}
