@@ -198,7 +198,7 @@ h2 {
 }
 
 .fadeInText {
-  animation: fadeInTextInAnimation 3s linear;
+  animation: fadeInTextInAnimation 5s linear;
 }
 
 @keyframes fadeInTextInAnimation {
