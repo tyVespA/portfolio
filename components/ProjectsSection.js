@@ -12,7 +12,11 @@ export default function ProjectsSection() {
         libero cum suscipit quo dolor laborum soluta. Amet, nobis optio.
       </p>
       <div className={styles.projectsContainer}>
-        <div data-aos="fade-right" data-aos-once="true">
+        <div
+          data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
           <ProjectCard
             src="/images/projectsImages/recipes-website-desktop.png"
             title="Project 1"
@@ -20,7 +24,12 @@ export default function ProjectsSection() {
             href="/projects"
           />
         </div>
-        <div data-aos="fade-right" data-aos-delay="200" data-aos-once="true">
+        <div
+          data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
           <ProjectCard
             src="/images/projectsImages/weather-page-desktop.png"
             title="Project 1"
@@ -30,7 +39,11 @@ export default function ProjectsSection() {
         </div>
       </div>
       <div className={styles.projectsContainer}>
-        <div data-aos="fade-right" data-aos-once="true">
+        <div
+          data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
           <ProjectCard
             src="/images/projectsImages/etch-a-sketch-desktop.png"
             title="Project 1"
@@ -38,7 +51,12 @@ export default function ProjectsSection() {
             href="/projects"
           />
         </div>
-        <div data-aos="fade-right" data-aos-delay="200" data-aos-once="true">
+        <div
+          data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
           <ProjectCard
             src="/images/projectsImages/news-homepage-desktop.png"
             title="Project 1"
