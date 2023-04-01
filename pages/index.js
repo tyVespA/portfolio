@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
@@ -9,8 +10,13 @@ import Skills from "@/components/Skills";
 import ProjectsSection from "@/components/ProjectsSection";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Head>

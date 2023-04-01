@@ -12,32 +12,58 @@ export default function ProjectsSection() {
         libero cum suscipit quo dolor laborum soluta. Amet, nobis optio.
       </p>
       <div className={styles.projectsContainer}>
-        <ProjectCard
-          src="/images/projectsImages/recipes-website-desktop.png"
-          title="Project 1"
-          description="Lorem isapdasjd"
-          href="/projects"
-        />
-        <ProjectCard
-          src="/images/projectsImages/weather-page-desktop.png"
-          title="Project 1"
-          description="Lorem isapdasjd"
-          href="/projects"
-        />
+        <div
+          data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
+          <ProjectCard
+            src="/images/projectsImages/recipes-website-desktop.png"
+            title="Project 1"
+            description="Lorem isapdasjd"
+            href="/projects"
+          />
+        </div>
+        <div
+          data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
+          <ProjectCard
+            src="/images/projectsImages/weather-page-desktop.png"
+            title="Project 1"
+            description="Lorem isapdasjd"
+            href="/projects"
+          />
+        </div>
       </div>
       <div className={styles.projectsContainer}>
-        <ProjectCard
-          src="/images/projectsImages/etch-a-sketch-desktop.png"
-          title="Project 1"
-          description="Lorem isapdasjd"
-          href="/projects"
-        />
-        <ProjectCard
-          src="/images/projectsImages/news-homepage-desktop.png"
-          title="Project 1"
-          description="Lorem isapdasjd"
-          href="/projects"
-        />
+        <div
+          data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
+          <ProjectCard
+            src="/images/projectsImages/etch-a-sketch-desktop.png"
+            title="Project 1"
+            description="Lorem isapdasjd"
+            href="/projects"
+          />
+        </div>
+        <div
+          data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
+          <ProjectCard
+            src="/images/projectsImages/news-homepage-desktop.png"
+            title="Project 1"
+            description="Lorem isapdasjd"
+            href="/projects"
+          />
+        </div>
       </div>
     </>
   );
