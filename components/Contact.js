@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/Contact.module.css";
+import ContactImage from "./ContactImage";
 
 export default function Contact() {
   return (
@@ -33,7 +34,9 @@ export default function Contact() {
           ></textarea>
           <button>Invia</button>
         </form>
-        <div className={styles.formSectionImage}>Image placeHolder</div>
+        <div className={styles.formSectionImage}>
+          <ContactImage />
+        </div>
       </div>
     </>
   );

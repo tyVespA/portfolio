@@ -1,0 +1,82 @@
+.imageContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  /* opacity: 0.5; */
+}
+
+.orbOne {
+  width: 25%;
+  position: absolute;
+  top: 30%;
+  z-index: 4;
+}
+
+.orbOne::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 999px;
+  background-color: red;
+  transform: translateY(-50%);
+}
+
+.orbTwo {
+  width: 65%;
+  position: absolute;
+  left: 10%;
+  z-index: 3;
+}
+
+.orbTwo::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 999px;
+  background-color: green;
+  transform: translateY(-50%);
+}
+
+.orbThree {
+  width: 40%;
+  position: absolute;
+  right: 0%;
+  top: 70%;
+}
+
+.orbThree::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 999px;
+  background-color: blue;
+  transform: translateY(-50%);
+}
+
+.orbOne {
+  animation: floating 10s ease infinite;
+}
+
+.orbTwo {
+  animation: floating 20s ease infinite;
+}
+
+.orbThree {
+  animation: floating 20s ease infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
