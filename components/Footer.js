@@ -1,13 +1,23 @@
 import React from "react";
 import styles from "../styles/Footer.module.css";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <div className={styles.footer}>
       <p>Footer Logo</p>
       <div>
-        <p>Github</p>
-        <p>Contatti</p>
+        <Link
+          href="https://github.com/tyVespA"
+          className="underlineOnHover"
+          target="_blank"
+        >
+          Github
+        </Link>
+
+        <a href="mailto:someone@example.com" className="underlineOnHover">
+          Contatti
+        </a>
       </div>
     </div>
   );

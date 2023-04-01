@@ -1,10 +1,20 @@
 .titleSection {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .titleSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
 }
 
 .heroTitle {
-  margin-bottom: 30px;
   line-height: 1.35;
   margin-block: auto;
 }
@@ -43,8 +53,39 @@
   }
 }
 
-.heroImage {
+.imageContainer {
+  /* change width and height depending on image dimensions */
+  width: 224px;
+  height: 224px;
+  overflow: hidden;
   margin-inline: auto;
+  margin-block: auto;
+  animation: movingBlob 12s linear infinite, fadeInImageAnimation 2s ease-in-out;
+  border: 3px solid var(--color-text-primary);
+}
+@keyframes movingBlob {
+  /* TODO: choose new blobs to make animation more fluid */
+  0%,
+  100% {
+    border-radius: 45% 55% 35% 65% / 47% 30% 70% 53%;
+  }
+  34% {
+    border-radius: 52% 48% 60% 40% / 65% 76% 24% 35%;
+  }
+  66% {
+    border-radius: 50% 50% 31% 69% / 60% 37% 63% 40%;
+  }
+}
+
+@keyframes fadeInImageAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 @media screen and (max-width: 630px) {
@@ -85,4 +126,10 @@
 
 .heroText div {
   max-width: 480px;
+}
+
+@media screen and (max-width: 700px) {
+  .heroText {
+    flex-direction: column;
+  }
 }
