@@ -22,7 +22,7 @@
   border-radius: 999px;
   /* background-color: red; */
   transform: translateY(-50%);
-  animation: orbGradient 70s ease infinite;
+  animation: orbGradient 100s ease infinite;
   animation-direction: alternate;
 }
 
@@ -65,7 +65,7 @@
   transform: translateY(-50%);
   animation: orbGradient 80s ease infinite;
   animation-direction: alternate;
-  animation-delay: -50s;
+  animation-delay: -60s;
 }
 
 @-webkit-keyframes floating {
