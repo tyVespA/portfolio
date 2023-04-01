@@ -3,7 +3,7 @@
   align-items: center;
   width: 100%;
   position: relative;
-  /* opacity: 0.5; */
+  opacity: 0.9;
 }
 
 .orbOne {
@@ -11,6 +11,7 @@
   position: absolute;
   top: 30%;
   z-index: 4;
+  animation: floating 15s ease infinite;
 }
 
 .orbOne::before {
@@ -19,8 +20,10 @@
   width: 100%;
   aspect-ratio: 1;
   border-radius: 999px;
-  background-color: red;
+  /* background-color: red; */
   transform: translateY(-50%);
+  animation: orbGradient 70s ease infinite;
+  animation-direction: alternate;
 }
 
 .orbTwo {
@@ -28,6 +31,7 @@
   position: absolute;
   left: 10%;
   z-index: 3;
+  animation: floating 20s ease infinite;
 }
 
 .orbTwo::before {
@@ -36,15 +40,19 @@
   width: 100%;
   aspect-ratio: 1;
   border-radius: 999px;
-  background-color: green;
+  /* background-color: green; */
   transform: translateY(-50%);
+  animation: orbGradient 60s ease infinite;
+  animation-direction: alternate;
+  animation-delay: -20s;
 }
 
 .orbThree {
   width: 40%;
   position: absolute;
   right: 0%;
-  top: 70%;
+  top: 60%;
+  animation: floating 25s ease infinite;
 }
 
 .orbThree::before {
@@ -53,20 +61,23 @@
   width: 100%;
   aspect-ratio: 1;
   border-radius: 999px;
-  background-color: blue;
+  /* background-color: blue; */
   transform: translateY(-50%);
+  animation: orbGradient 80s ease infinite;
+  animation-direction: alternate;
+  animation-delay: -50s;
 }
 
-.orbOne {
-  animation: floating 10s ease infinite;
-}
-
-.orbTwo {
-  animation: floating 20s ease infinite;
-}
-
-.orbThree {
-  animation: floating 20s ease infinite;
+@-webkit-keyframes floating {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 
 @keyframes floating {
@@ -80,3 +91,39 @@
     transform: translateY(-20px);
   }
 }
+
+.orbOne::before,
+.orbTwo::before,
+.orbThree::before {
+  background-image: linear-gradient(
+    to bottom,
+    #f437cd,
+    #162aef,
+    #f34033,
+    #17cfaf,
+    #d8a9c1,
+    #f437cd,
+    #162aef,
+    #f34033,
+    #17cfaf,
+    #d8a9c1,
+    #f437cd,
+    #162aef,
+    #f34033,
+    #17cfaf,
+    #d8a9c1
+  );
+  background-size: 100% 1000%;
+}
+
+@keyframes orbGradient {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+/* Animation first seen on https://alexjpate.com/ */
