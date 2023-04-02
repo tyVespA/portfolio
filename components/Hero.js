@@ -7,11 +7,24 @@ export default function Hero() {
     <>
       <div className={styles.titleSection}>
         <div className={styles.heroTitle}>
-          <h2>Line 1 👋</h2>
-          <h2>Line 2</h2>
-          <h2>Line 3</h2>
+          <h2 data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+            Line 1 👋
+          </h2>
+          <h2
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+          >
+            Line 2
+          </h2>
           {/* <h1>Ciao👋, sono Marco.</h1> */}
-          <h2>
+          <h2
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-delay="600"
+            data-aos-duration="1000"
+          >
             {/* Front End{" "} */}
             <span className={`${styles.accented} ${styles.animatedGradient}`}>
               Developer
@@ -27,7 +40,13 @@ export default function Hero() {
           className={styles.heroImage}
           style={{ objectFit: "contain" }}
         /> */}
-        <div className={` ${styles.imageContainer}`}>
+        <div
+          className={` ${styles.imageContainer}`}
+          data-aos="fade-down"
+          data-aos-once="true"
+          // data-aos-delay="600"
+          data-aos-duration="1000"
+        >
           <Image
             src="/images/pexels-polina-zimmerman-3747503.jpg"
             height={1100 / 4}
