@@ -13,20 +13,36 @@ export default function Contact() {
         consequatur reprehenderit?
       </p>
       <div className={styles.formSection}>
-        <form action="" className={styles.contactForm}>
+        <form
+          action="https://formspree.io/f/xlekppdn"
+          method="POST"
+          className={styles.contactForm}
+        >
           <div className={styles.firstRow}>
-            <input type="text" name="" id="" placeholder="Nome" required />
             <input
               type="text"
-              name=""
-              id=""
+              name="name"
+              id="name"
+              placeholder="Nome"
+              required
+            />
+            <input
+              type="text"
+              name="compagnia"
+              id="compagnia"
               placeholder="Compagnia (opzionale)"
             />
           </div>
-          <input type="email" name="" id="" placeholder="Email" required />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
           <textarea
-            name=""
-            id=""
+            name="messaggio"
+            id="messaggio"
             rows={5}
             placeholder="Messaggio"
             required
