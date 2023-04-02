@@ -7,7 +7,7 @@
 @media screen and (max-width: 700px) {
   .titleSection {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     gap: 40px;
     margin-bottom: 40px;
@@ -110,6 +110,16 @@
   gap: 50px;
 }
 
+@media screen and (max-width: 700px) {
+  .heroText {
+    flex-direction: column;
+    display: block;
+    text-align: center;
+    margin-inline: auto;
+    margin-bottom: 80px;
+  }
+}
+
 @media screen and (max-width: 630px) {
   .titleSection {
     display: block;
@@ -118,13 +128,6 @@
     text-align: center;
     margin-bottom: 30px;
   }
-  .heroText {
-    display: block;
-    text-align: center;
-  }
-  .heroText div {
-    margin-inline: auto;
-  }
   .heroText div:first-child {
     margin-bottom: 20px;
   }
@@ -132,10 +135,4 @@
 
 .heroText div {
   max-width: 480px;
-}
-
-@media screen and (max-width: 700px) {
-  .heroText {
-    flex-direction: column;
-  }
 }
