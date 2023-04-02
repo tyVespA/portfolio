@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
       <Layout>
         <Navbar />
-        <section>
+        <section className="heroSection">
           <Hero />
         </section>
         <section>

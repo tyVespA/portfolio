@@ -3,49 +3,28 @@ import styles from "../styles/Hero.module.css";
 import Image from "next/image";
 
 export default function Hero() {
-  const [isVisible1, setIsVisible1] = useState(false);
-  const [isVisible2, setIsVisible2] = useState(false);
-  const [isVisible3, setIsVisible3] = useState(false);
-  const [isVisible4, setIsVisible4] = useState(false);
-  const [isVisible5, setIsVisible5] = useState(false);
-
-  useEffect(() => {
-    setIsVisible1(true);
-    // setIsVisible4(true);
-
-    const timer1 = setTimeout(() => {
-      setIsVisible2(true);
-    }, 500);
-
-    const timer2 = setTimeout(() => {
-      setIsVisible3(true);
-    }, 1000);
-
-    const timer3 = setTimeout(() => {
-      setIsVisible4(true);
-    }, 0);
-
-    const timer4 = setTimeout(() => {
-      setIsVisible5(true);
-    }, 0);
-
-    return () => {
-      clearTimeout(timer1);
-      clearTimeout(timer2);
-      clearTimeout(timer3);
-      clearTimeout(timer4);
-    };
-  }, []);
-
   return (
     <>
       <div className={styles.titleSection}>
         <div className={styles.heroTitle}>
-          <h2 className={isVisible1 ? "fadeIn" : "hidden"}>Line 1 👋</h2>
-          <h2 className={isVisible2 ? "fadeIn" : "hidden"}>Line 2</h2>
-          <h2 className={isVisible3 ? "fadeIn" : "hidden"}>Line 3</h2>
+          <h2 data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+            Line 1 👋
+          </h2>
+          <h2
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+          >
+            Line 2
+          </h2>
           {/* <h1>Ciao👋, sono Marco.</h1> */}
-          <h2>
+          <h2
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-delay="600"
+            data-aos-duration="1000"
+          >
             {/* Front End{" "} */}
             <span className={`${styles.accented} ${styles.animatedGradient}`}>
               Developer
@@ -61,19 +40,22 @@ export default function Hero() {
           className={styles.heroImage}
           style={{ objectFit: "contain" }}
         /> */}
-        <div className={` ${styles.imageContainer}`}>
+        <div
+          className={` ${styles.imageContainer}`}
+          data-aos="fade-down"
+          data-aos-once="true"
+          // data-aos-delay="600"
+          data-aos-duration="1000"
+        >
           <Image
             src="/images/pexels-polina-zimmerman-3747503.jpg"
             height={1100 / 4}
             width={896 / 4}
             alt="Hero picture"
-            style={{ objectFit: "cover" }}
           />
         </div>
       </div>
-      <section
-        className={`${styles.heroText} ${isVisible5 ? "fadeInText" : "hidden"}`}
-      >
+      <section className={styles.heroText}>
         <div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
