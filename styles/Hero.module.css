@@ -1,13 +1,13 @@
 .titleSection {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 @media screen and (max-width: 700px) {
   .titleSection {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     gap: 40px;
     margin-bottom: 40px;
@@ -55,13 +55,19 @@
 
 .imageContainer {
   /* change width and height depending on image dimensions */
-  width: 224px;
-  height: 224px;
+  width: 284px;
+  height: 284px;
   overflow: hidden;
   margin-inline: auto;
   margin-block: auto;
-  animation: movingBlob 12s linear infinite, fadeInImageAnimation 2s ease-in-out;
+  animation: movingBlob 12s linear infinite;
   border: 3px solid var(--color-text-primary);
+}
+
+.imageContainer img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 @keyframes movingBlob {
   /* TODO: choose new blobs to make animation more fluid */

@@ -147,7 +147,7 @@ a {
   text-decoration: none;
 }
 
-section {
+section:not(:nth-child(2)) {
   margin-bottom: 100px;
 }
 
@@ -233,4 +233,22 @@ h2 {
 .underlineOnHover:hover::before {
   left: 0;
   width: 100%;
+}
+
+/*
+  HERO SECTION
+*/
+
+.heroSection {
+  height: calc(100vh - 67px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  .heroSection {
+    height: auto;
+    margin-top: 40px;
+  }
 }
