@@ -2,6 +2,7 @@
 
 - add prefers color scheme
 - remove animation delay on projects on mobile
+- add favicon
 - play with hero animations for mobile (maybe)
 - 2 columns for technologies for mobile (?)
 - adding nav (maybe)
