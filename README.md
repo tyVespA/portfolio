@@ -1,6 +1,7 @@
 # TODO
 
 - add prefers color scheme
+- add shadow to project images
 - remove animation delay on projects on mobile
 - add favicon
 - play with hero animations for mobile (maybe)
