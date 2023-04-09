@@ -22,7 +22,7 @@
   border-radius: 999px;
   /* background-color: red; */
   transform: translateY(-50%);
-  animation: orbGradient 100s ease infinite;
+  animation: orbGradient 80s ease infinite;
   animation-direction: alternate;
 }
 
@@ -65,9 +65,9 @@
   border-radius: 999px;
   /* background-color: blue; */
   transform: translateY(-50%);
-  animation: orbGradient 80s ease infinite;
+  animation: orbGradient 60s ease infinite;
   animation-direction: alternate;
-  animation-delay: -45s;
+  animation-delay: -35s;
 }
 
 @-webkit-keyframes floating {
@@ -115,7 +115,7 @@
     #17cfaf,
     #d8a9c1
   );
-  background-size: 100% 1000%;
+  background-size: 100% 1500%;
   box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
