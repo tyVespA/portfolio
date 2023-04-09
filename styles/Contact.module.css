@@ -73,15 +73,15 @@
 
 .contactForm button {
   cursor: pointer;
-  font-weight: 500;
+  /* font-weight: 500; */
   color: var(--color-text-primary);
   transition: all 0.5s;
 }
 
 .contactForm button:hover {
-  color: #e3e3e3;
-  border: 1px solid var(--color-bg-primary);
-  background-color: var(--color-text-secondary);
+  color: var(--color-bg-primary);
+  border: 1px solid var(--color-text-primary);
+  background-color: var(--color-text-primary);
 }
 
 .formSectionImage {
