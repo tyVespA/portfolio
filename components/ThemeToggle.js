@@ -12,7 +12,14 @@ export default function ThemeToggle() {
 
   useEffect(() => {
     const storedTheme = window.localStorage.getItem("theme");
-    storedTheme && setActiveTheme(storedTheme);
+    const preferredColorScheme = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches
+      ? "dark"
+      : "light";
+    storedTheme
+      ? setActiveTheme(storedTheme)
+      : setActiveTheme(preferredColorScheme);
   }, []);
 
   useEffect(() => {
