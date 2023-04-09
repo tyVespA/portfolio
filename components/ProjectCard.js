@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/ProjectCard.module.css";
 
-export default function ProjectCard({ src, title, description, href }) {
+export default function ProjectCard({ src, title, description, href, alt }) {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <div className={styles.projectCardWrapper}>
@@ -17,6 +17,7 @@ export default function ProjectCard({ src, title, description, href }) {
             src={src}
             width={450}
             height={260}
+            alt={alt}
             className={`${styles.imageThumbnail} ${
               isHovered ? styles.zoomedIn : ""
             }`}
