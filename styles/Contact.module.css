@@ -55,6 +55,13 @@
   opacity: 0.6;
 }
 
+.contactForm input:focus,
+.contactForm textarea:focus,
+.contactForm button:focus {
+  outline: none;
+  border: 1px solid var(--color-text-primary);
+}
+
 .firstRow {
   display: flex;
   gap: 25px;
