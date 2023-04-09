@@ -7,9 +7,13 @@
 }
 
 .skillList li {
+  /* font-family: "DM Sans", sans-serif;
+  font-weight: 500; */
   font-family: "DM Sans", sans-serif;
-  font-weight: 500;
-  /* color: var(--color-text-primary); */
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.9rem;
+  color: var(--color-text-primary);
   display: flex;
   align-items: center;
   gap: 10px;
