@@ -31,7 +31,8 @@
   position: absolute;
   left: 10%;
   z-index: 3;
-  animation: floating 20s ease infinite;
+  animation: floating 17s ease infinite;
+  animation-delay: -10s;
 }
 
 .orbTwo::before {
@@ -52,7 +53,8 @@
   position: absolute;
   right: 0%;
   top: 60%;
-  animation: floating 25s ease infinite;
+  animation: floating 22s ease infinite;
+  animation-delay: -5s;
 }
 
 .orbThree::before {
@@ -65,7 +67,7 @@
   transform: translateY(-50%);
   animation: orbGradient 80s ease infinite;
   animation-direction: alternate;
-  animation-delay: -60s;
+  animation-delay: -45s;
 }
 
 @-webkit-keyframes floating {
@@ -114,6 +116,7 @@
     #d8a9c1
   );
   background-size: 100% 1000%;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
 @keyframes orbGradient {
