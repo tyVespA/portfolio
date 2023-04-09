@@ -1,7 +1,6 @@
 # TODO
 
-- add prefers color scheme
-- add shadow to project images and orbs
+- change focus color on input (maybe)
 - remove animation delay on projects on mobile
 - add favicon
 - play with hero animations for mobile (maybe)
@@ -12,6 +11,8 @@
 
 ## DONE
 
+- add prefers color scheme
+- add shadow to project images and orbs
 - fix hero section animations
 - hook up contact form
 - animations on scroll
