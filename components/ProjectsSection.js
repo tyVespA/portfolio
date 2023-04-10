@@ -18,7 +18,7 @@ export default function ProjectsSection() {
           data-aos-duration="1000"
         >
           <ProjectCard
-            src="/images/projectsImages/recipes-website-desktop.png"
+            src="/images/projectsImages/country-quiz-desktop-preview.jpg"
             title="Project 1"
             description="Lorem isapdasjd"
             href="/projects"
@@ -31,7 +31,7 @@ export default function ProjectsSection() {
           data-aos-duration="1000"
         >
           <ProjectCard
-            src="/images/projectsImages/weather-page-desktop.png"
+            src="/images/projectsImages/url-shortening-desktop-preview.jpg"
             title="Project 1"
             description="Lorem isapdasjd"
             href="/projects"
@@ -45,7 +45,7 @@ export default function ProjectsSection() {
           data-aos-duration="1000"
         >
           <ProjectCard
-            src="/images/projectsImages/etch-a-sketch-desktop.png"
+            src="/images/projectsImages/recipes-website-desktop.png"
             title="Project 1"
             description="Lorem isapdasjd"
             href="/projects"
@@ -58,8 +58,8 @@ export default function ProjectsSection() {
           data-aos-duration="1000"
         >
           <ProjectCard
-            src="/images/projectsImages/news-homepage-desktop.png"
-            title="Project 1"
+            src="/images/projectsImages/etch-a-sketch-desktop.png"
+            title="Unic 1"
             description="Lorem isapdasjd"
             href="/projects"
           />

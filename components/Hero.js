@@ -8,7 +8,7 @@ export default function Hero() {
       <div className={styles.titleSection}>
         <div className={styles.heroTitle}>
           <h2 data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
-            Line 1 👋
+            Ciao Line 1 👋
           </h2>
           <h2
             data-aos="fade-up"
@@ -16,20 +16,21 @@ export default function Hero() {
             data-aos-delay="300"
             data-aos-duration="1000"
           >
-            Line 2
+            {/* Front End{" "} */}
+            <span className={`${styles.accented} ${styles.animatedGradient}`}>
+              Developer
+            </span>
           </h2>
-          {/* <h1>Ciao👋, sono Marco.</h1> */}
           <h2
             data-aos="fade-up"
             data-aos-once="true"
             data-aos-delay="600"
             data-aos-duration="1000"
           >
-            {/* Front End{" "} */}
-            <span className={`${styles.accented} ${styles.animatedGradient}`}>
-              Developer
-            </span>
+            Line 3
           </h2>
+          {/* <h1>Ciao👋, sono Marco.</h1> */}
+
           {/* <h2 className={isVisible ? "visible" : "hidden"}>etc etc</h2> */}
         </div>
         {/* <Image
@@ -48,9 +49,9 @@ export default function Hero() {
           data-aos-duration="1000"
         >
           <Image
-            src="/images/pexels-polina-zimmerman-3747503.jpg"
-            height={1100 / 4}
-            width={896 / 4}
+            src="/images/heroImg.jpg"
+            height={1100}
+            width={896}
             alt="Hero picture"
           />
         </div>
