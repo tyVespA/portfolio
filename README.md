@@ -6,7 +6,9 @@
 
 - adding nav (maybe)
 - mobile "fade-in-from-side" nav (if adding nav)
+- 
 - add english text with toggle (?)
+- add all projects page with filter for technology (?)
 
 ## DONE
 
