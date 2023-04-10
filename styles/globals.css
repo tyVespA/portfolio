@@ -240,7 +240,7 @@ h2 {
 */
 
 .heroSection {
-  height: calc(100vh - 67px);
+  min-height: calc(100vh - 67px);
   display: flex;
   flex-direction: column;
   justify-content: center;
