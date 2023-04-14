@@ -1,5 +1,7 @@
 # TODO
 
+- fix dark mode input autocomplete background color bug (it becomes white)
+- change leng to "it"
 - change nextjs icon on dark mode
 - remove animation delay on projects on mobile
 - play with hero animations for mobile (maybe)
