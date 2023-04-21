@@ -1,12 +1,18 @@
 # TODO
 
+- split technologies into the ones i know VS the ones im learning
+- fix dark mode input autocomplete background color bug (it becomes white)
+- change leng to "it"
+- change nextjs icon on dark mode
 - remove animation delay on projects on mobile
 - play with hero animations for mobile (maybe)
 - check pagespeed for accessibility issues
 
 - adding nav (maybe)
 - mobile "fade-in-from-side" nav (if adding nav)
+- 
 - add english text with toggle (?)
+- add all projects page with filter for technology (?)
 
 ## DONE
 
