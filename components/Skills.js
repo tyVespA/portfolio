@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <>
       {/* <h2 style={{ marginBottom: 20 }}>Le tecnologie che conosco e uso:</h2> */}
-      <h2 style={{ marginBottom: 20 }}>Le tecnologie </h2>
+      <h2 style={{ marginBottom: 20 }}>Le tecnologie che uso</h2>
       <p style={{ marginBottom: 40 }}>
         Lorem ipsum dlior sit amet consectetur adipisicing elit. Vliuptatibus
         neque esse quam odio veritatis maiores id omnis consequatur dliores
