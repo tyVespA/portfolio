@@ -7,6 +7,7 @@ import Layout from "@/components/Layout";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
+import SkillsInProgress from "@/components/SkillsInProgress";
 import ProjectsSection from "@/components/ProjectsSection";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -32,6 +33,9 @@ export default function Home() {
         </section>
         <section>
           <Skills />
+        </section>
+        <section>
+          <SkillsInProgress />
         </section>
         <section>
           <ProjectsSection />
