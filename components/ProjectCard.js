@@ -35,7 +35,7 @@ export default function ProjectCard({ src, title, description, href, alt }) {
           isHovered ? styles.underlined : ""
         }`}
       >
-        Vai al progetto &gt;
+        Vai al progetto →
       </Link>
     </div>
   );
