@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Questrial&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,700&display=swap");
+
 /*
   START OF RESET
 */
@@ -82,7 +84,7 @@ h6 {
 h1,
 h2,
 h3 {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 body {
