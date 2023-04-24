@@ -7,7 +7,7 @@ export default function Skills() {
     <>
       {/* <h2 style={{ marginBottom: 20 }}>Le tecnologie che conosco e uso:</h2> */}
       <h2 style={{ marginBottom: 20 }}>Le tecnologie che uso</h2>
-      <p style={{ marginBottom: 40 }}>
+      <p style={{ marginBottom: 25 }}>
         Lorem ipsum dlior sit amet consectetur adipisicing elit. Vliuptatibus
         neque esse quam odio veritatis maiores id omnis consequatur dliores
         nobis nostrum qui deserunt ratione, hic ipsa consequuntur nisi quae?
