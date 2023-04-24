@@ -70,7 +70,7 @@ export default function Skills() {
         </li>
         <li>
           <Image
-            src="/images/next-js.svg"
+            src="/images/nextjs-logo.png"
             height={32}
             width={32}
             alt="HTML5 Logo"
