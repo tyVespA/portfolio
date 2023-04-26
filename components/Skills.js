@@ -28,7 +28,7 @@ export default function Skills() {
             src="/images/w3_css-icon.svg"
             height={32}
             width={32}
-            alt="HTML5 Logo"
+            alt="CSS Logo"
           />
           <p>CSS3</p>
         </li>
@@ -37,7 +37,7 @@ export default function Skills() {
             src="/images/sass-color-aef0354c.png"
             height={32}
             width={32}
-            alt="HTML5 Logo"
+            alt="SASS Logo"
           />
           <p>Sass</p>
         </li>
@@ -46,16 +46,16 @@ export default function Skills() {
             src="/images/js-logo.jpg"
             height={32}
             width={32}
-            alt="HTML5 Logo"
+            alt="JavaScript Logo"
           />
-          <p>Javascript ES6</p>
+          <p>JavaScript ES6</p>
         </li>
         <li>
           <Image
             src="/images/api-logo 1.png"
             height={32}
             width={32}
-            alt="HTML5 Logo"
+            alt="API Logo"
           />
           <p>RESTful API</p>
         </li>
@@ -64,16 +64,16 @@ export default function Skills() {
             src="/images/React-icon.png"
             height={26.5}
             width={32}
-            alt="HTML5 Logo"
+            alt="React Logo"
           />
-          <p>React.js</p>
+          <p>React</p>
         </li>
         <li>
           <Image
             src="/images/nextjs-logo.png"
             height={32}
             width={32}
-            alt="HTML5 Logo"
+            alt="Next Logo"
           />
           <p>Next.js</p>
         </li>
@@ -82,16 +82,25 @@ export default function Skills() {
             src="/images/WordPress_blue_logo.svg.png"
             height={32}
             width={32}
-            alt="HTML5 Logo"
+            alt="Wordpress Logo"
           />
           <p>Wordpress</p>
+        </li>
+        <li>
+          <Image
+            src="/images/figma-logo.webp"
+            height={32}
+            width={32}
+            alt="Figma Logo"
+          />
+          <p>Figma</p>
         </li>
         <li>
           <Image
             src="/images/Git-Icon-1788C.png"
             height={32}
             width={32}
-            alt="HTML5 Logo"
+            alt="Git Logo"
           />
           <p>Git</p>
         </li>
