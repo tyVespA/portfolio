@@ -18,10 +18,19 @@ export default function Skills() {
       <ul className={styles.skillList}>
         <li>
           <Image
+            src="/images/typescript-logo.png"
+            height={32}
+            width={32}
+            alt="TypeScript Logo"
+          />
+          <p>TypeScript</p>
+        </li>
+        <li>
+          <Image
             src="/images/nodejs-logo.png"
             height={32}
             width={32}
-            alt="HTML5 Logo"
+            alt="NodeJS Logo"
           />
           <p>NodeJS</p>
         </li>
@@ -30,7 +39,7 @@ export default function Skills() {
             src="/images/expressjs-logo.png"
             height={32}
             width={32}
-            alt="HTML5 Logo"
+            alt="ExpressJS Logo"
           />
           <p>ExpressJS</p>
         </li>
@@ -39,7 +48,7 @@ export default function Skills() {
             src="/images/Tailwind_CSS_Logo.svg"
             height={32}
             width={32}
-            alt="HTML5 Logo"
+            alt="Tailwind Logo"
           />
           <p>Tailwind CSS</p>
         </li>
@@ -48,7 +57,7 @@ export default function Skills() {
             src="/images/bootstrap-logo.png"
             height={32}
             width={32}
-            alt="HTML5 Logo"
+            alt="Bootstrap Logo"
           />
           <p>Bootstrap</p>
         </li>
@@ -57,7 +66,7 @@ export default function Skills() {
             src="/images/mongodb-logo.svg"
             height={32}
             width={32}
-            alt="HTML5 Logo"
+            alt="MongoDB Logo"
           />
           <p>MongoDB</p>
         </li>
