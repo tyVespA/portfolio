@@ -27,7 +27,7 @@ export default function Home() {
         <link rel="icon" href="/images/favicon.svg" />
       </Head>
       <Layout>
-        <Navbar />
+        {/* <Navbar /> */}
         <section className="heroSection">
           <Hero />
         </section>
@@ -43,7 +43,7 @@ export default function Home() {
         <section>
           <Contact />
         </section>
-        <Footer />
+        {/* <Footer /> */}
         {/* <Link href="/projects">Projects</Link> */}
       </Layout>
     </>
