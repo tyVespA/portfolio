@@ -21,7 +21,7 @@ export default function ProjectsSection() {
             src="/images/projectsImages/country-quiz-desktop-preview.jpg"
             title="Project 1"
             description="Lorem isapdasjd"
-            href="/projects"
+            href="/projectPageTemplate"
           />
         </div>
         <div
