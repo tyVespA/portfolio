@@ -1,11 +1,15 @@
 import React from "react";
-import styles from "../styles/Skills.module.css";
 import Image from "next/image";
+import { useContext } from "react";
+import { ThemeContext } from "@/pages/_app";
+import styles from "../styles/Skills.module.css";
 
 export default function Skills() {
+  const { activeTheme } = useContext(ThemeContext);
+  const nextJsLogoColor = activeTheme === "light" ? "black" : "white";
+
   return (
     <>
-      {/* <h2 style={{ marginBottom: 20 }}>Le tecnologie che conosco e uso:</h2> */}
       <h2 style={{ marginBottom: 20 }}>Le tecnologie che uso</h2>
       <p style={{ marginBottom: 25 }}>
         Lorem ipsum dlior sit amet consectetur adipisicing elit. Vliuptatibus
@@ -70,7 +74,7 @@ export default function Skills() {
         </li>
         <li>
           <Image
-            src="/images/nextjs-logo.png"
+            src={`/images/nextjs-logo-${nextJsLogoColor}.svg`}
             height={32}
             width={32}
             alt="Next Logo"
