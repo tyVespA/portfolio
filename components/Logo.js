@@ -11,7 +11,7 @@ export default function Logo() {
     <>
       <Link href="/">
         <Image
-          src={`/images/logo-${logoColor}.svg`}
+          src={`/images/logos/logo-${logoColor}.svg`}
           width={626 / 14}
           height={538 / 14}
           alt="Logo"
