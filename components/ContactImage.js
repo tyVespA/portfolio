@@ -5,9 +5,8 @@ export default function ContactImage() {
   return (
     <div
       className={styles.imageContainer}
-      data-aos="fade-in"
+      data-aos="fade-left"
       data-aos-once="true"
-      data-aos-delay="300"
       data-aos-duration="1000"
     >
       <div className={styles.orbOne}></div>
