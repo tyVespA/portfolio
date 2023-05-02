@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../styles/ProjectsSection.module.css";
 import ProjectCard from "./ProjectCard";
 
 export default function ProjectsSection() {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    window.innerWidth <= 800 ? setIsMobile(true) : setIsMobile(false);
+  }, []);
+
   return (
     <>
       <h2 style={{ marginBottom: 20 }}>I miei ultimi progretti</h2>
@@ -27,7 +32,7 @@ export default function ProjectsSection() {
         <div
           data-aos="fade-right"
           data-aos-once="true"
-          data-aos-delay="300"
+          data-aos-delay={isMobile ? "0" : "300"}
           data-aos-duration="1000"
         >
           <ProjectCard
@@ -54,7 +59,7 @@ export default function ProjectsSection() {
         <div
           data-aos="fade-right"
           data-aos-once="true"
-          data-aos-delay="300"
+          data-aos-delay={isMobile ? "0" : "300"}
           data-aos-duration="1000"
         >
           <ProjectCard
