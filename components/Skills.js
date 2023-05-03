@@ -83,7 +83,7 @@ export default function Skills() {
         </li>
         <li>
           <Image
-            src="/images/logos/WordPress_blue_logo.svg.png"
+            src="/images/logos/WordPress_blue_logo.png"
             height={32}
             width={32}
             alt="Wordpress Logo"
@@ -92,7 +92,7 @@ export default function Skills() {
         </li>
         <li>
           <Image
-            src="/images/logos/figma-logo.webp"
+            src="/images/logos/figma-logo.png"
             height={32}
             width={32}
             alt="Figma Logo"
