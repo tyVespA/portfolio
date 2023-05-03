@@ -20,7 +20,7 @@ export default function Skills() {
       <ul className={styles.skillList}>
         <li>
           <Image
-            src="/images/logos/HTML5_Badge_64.png"
+            src="/images/logos/html5-logo.png"
             height={32}
             width={32}
             alt="HTML5 Logo"
@@ -29,7 +29,7 @@ export default function Skills() {
         </li>
         <li>
           <Image
-            src="/images/logos/w3_css-icon.svg"
+            src="/images/logos/css-logo.svg"
             height={32}
             width={32}
             alt="CSS Logo"
@@ -38,7 +38,7 @@ export default function Skills() {
         </li>
         <li>
           <Image
-            src="/images/logos/sass-color-aef0354c.png"
+            src="/images/logos/sass-logo.png"
             height={32}
             width={32}
             alt="SASS Logo"
@@ -56,7 +56,7 @@ export default function Skills() {
         </li>
         <li>
           <Image
-            src="/images/logos/api-logo 1.png"
+            src="/images/logos/api-logo.png"
             height={32}
             width={32}
             alt="API Logo"
@@ -65,7 +65,7 @@ export default function Skills() {
         </li>
         <li>
           <Image
-            src="/images/logos/React-icon.png"
+            src="/images/logos/react-logo.png"
             height={26.5}
             width={32}
             alt="React Logo"
@@ -83,7 +83,7 @@ export default function Skills() {
         </li>
         <li>
           <Image
-            src="/images/logos/WordPress_blue_logo.png"
+            src="/images/logos/wordpress-logo.png"
             height={32}
             width={32}
             alt="Wordpress Logo"
@@ -101,7 +101,7 @@ export default function Skills() {
         </li>
         <li>
           <Image
-            src="/images/logos/Git-Icon-1788C.png"
+            src="/images/logos/git-logo.png"
             height={32}
             width={32}
             alt="Git Logo"

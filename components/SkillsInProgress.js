@@ -45,7 +45,7 @@ export default function Skills() {
         </li>
         <li>
           <Image
-            src="/images/logos/Tailwind_CSS_Logo.svg"
+            src="/images/logos/tailwind-logo.svg"
             height={32}
             width={32}
             alt="Tailwind Logo"
