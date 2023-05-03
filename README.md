@@ -1,7 +1,7 @@
 # TODO
 
+- resize and compress images
 - fix dark mode input autocomplete background color bug (it becomes white)
-- remove animation delay on projects on mobile
 - play with hero animations for mobile (maybe)
 - check pagespeed for accessibility issues
 
@@ -27,3 +27,4 @@
 - change leng to "it"
 - split technologies into the ones i know VS the ones im learning
 - change nextjs icon on dark mode
+- remove animation delay on projects on mobile
