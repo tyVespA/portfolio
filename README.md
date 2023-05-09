@@ -1,5 +1,6 @@
 # TODO
 
+- split technologies into the ones i know VS the ones im learning
 - fix dark mode input autocomplete background color bug (it becomes white)
 - change leng to "it"
 - change nextjs icon on dark mode
