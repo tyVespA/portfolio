@@ -66,7 +66,7 @@ export default function Skills() {
         <li>
           <Image
             src="/images/logos/react-logo.png"
-            height={26.5}
+            height={32}
             width={32}
             alt="React Logo"
           />
