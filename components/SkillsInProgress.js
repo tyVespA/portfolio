@@ -56,7 +56,7 @@ export default function Skills() {
           <Image
             src="/images/logos/bootstrap-logo.png"
             height={32}
-            width={32}
+            width={40}
             alt="Bootstrap Logo"
           />
           <p>Bootstrap</p>
