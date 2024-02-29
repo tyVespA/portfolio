@@ -1,8 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import styles from "../styles/Hero.module.css";
 import Image from "next/image";
+import { ThemeContext } from "@/pages/_app";
 
 export default function Hero() {
+  const { activeTheme } = useContext(ThemeContext);
+
+  const heroImagePath =
+    activeTheme === "light"
+      ? "/images/heroImg-light.jpg"
+      : "/images/heroImg-dark.jpg";
+
   return (
     <>
       <div className={styles.titleSection}>
@@ -49,7 +57,7 @@ export default function Hero() {
           data-aos-duration="1000"
         >
           <Image
-            src="/images/heroImg.jpg"
+            src={heroImagePath}
             height={1100}
             width={896}
             alt="Hero picture"
