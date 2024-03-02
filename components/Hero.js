@@ -16,7 +16,7 @@ export default function Hero() {
       <div className={styles.titleSection}>
         <div className={styles.heroTitle}>
           <h2 data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
-            Ciao Line 1 👋
+            Ciao👋sono Marco,
           </h2>
           <h2
             data-aos="fade-up"
@@ -26,7 +26,7 @@ export default function Hero() {
           >
             {/* Front End{" "} */}
             <span className={`${styles.accented} ${styles.animatedGradient}`}>
-              Developer
+              Front End Developer
             </span>
           </h2>
           <h2
@@ -35,7 +35,7 @@ export default function Hero() {
             data-aos-delay="600"
             data-aos-duration="1000"
           >
-            Line 3
+            {/* Line 3 */}
           </h2>
           {/* <h1>Ciao👋, sono Marco.</h1> */}
 
