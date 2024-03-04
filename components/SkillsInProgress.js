@@ -9,11 +9,13 @@ export default function Skills() {
       <h2 style={{ marginBottom: 20, marginTop: -50 }}>
         Le tecnologie che sto studiando
       </h2>
-      <p style={{ marginBottom: 25 }}>
-        Lorem ipsum dlior sit amet consectetur adipisicing elit. Vliuptatibus
-        neque esse quam odio veritatis maiores id omnis consequatur dliores
-        nobis nostrum qui deserunt ratione, hic ipsa consequuntur nisi quae?
-        Expedita!
+      <p style={{ marginBottom: 30 }}>
+        Il mondo del web mi appassiona profondamente e cerco costantemente di
+        arricchire il mio bagaglio di competenze attraverso l'apprendimento di
+        nuove tecnologie.
+        {/* <br /> Sono entusiasta di mettere in pratica queste
+        nuove conoscenze per lavorare a progetti sempre più complessi,
+        interessanti e utili. */}
       </p>
       <ul className={styles.skillList}>
         <li>
