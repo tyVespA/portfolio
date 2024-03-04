@@ -10,12 +10,12 @@ export default function Skills() {
 
   return (
     <>
-      <h2 style={{ marginBottom: 20 }}>Le tecnologie che uso</h2>
-      <p style={{ marginBottom: 25 }}>
-        Lorem ipsum dlior sit amet consectetur adipisicing elit. Vliuptatibus
-        neque esse quam odio veritatis maiores id omnis consequatur dliores
-        nobis nostrum qui deserunt ratione, hic ipsa consequuntur nisi quae?
-        Expedita!
+      <h2 style={{ marginBottom: 20 }}>Le tecnologie che conosco</h2>
+      <p style={{ marginBottom: 30 }}>
+        Completando corsi online come The Odin Project, FreeCodeCamp, The Joy of
+        React e lavorando su numerosi progetti personali, ho sviluppato una
+        solida competenza nell'utilizzo di una varietà di tecnologie nel campo
+        dello sviluppo web.
       </p>
       <ul className={styles.skillList}>
         <li>
