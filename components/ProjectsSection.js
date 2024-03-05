@@ -10,11 +10,11 @@ export default function ProjectsSection() {
 
   return (
     <>
-      <h2 style={{ marginBottom: 20 }}>I miei ultimi progretti</h2>
+      <h2 style={{ marginBottom: 20 }}>Alcuni dei miei progretti</h2>
       <p style={{ marginBottom: 40 }}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus natus
-        illo vero nam numquam sed eius molestias reprehenderit quaerat, aliquam
-        libero cum suscipit quo dolor laborum soluta. Amet, nobis optio.
+        Durante il mio percorso di studi, ho sviluppato numerosi progetti che
+        hanno arricchito la mia esperienza come web developer. Di seguito,
+        presento alcuni dei miei lavori più significativi.
       </p>
       <div className={styles.projectsContainer}>
         <div
