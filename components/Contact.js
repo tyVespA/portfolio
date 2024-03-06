@@ -7,10 +7,10 @@ export default function Contact() {
     <>
       <h2 style={{ marginBottom: 20 }}>Per parlarci:</h2>
       <p className={styles.contactParagraph}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum nemo
-        libero, est earum nobis enim rerum exercitationem assumenda ab eaque
-        laudantium? Facere blanditiis odio voluptates veniam doloremque quam
-        consequatur reprehenderit?
+        Se siete interessati a collaborare o avete domande sui miei progetti,
+        non esitate a contattarmi tramite il modulo sottostante. Sarò lieto di
+        rispondere a tutte le vostre richieste e di discutere eventuali
+        opportunità di lavoro insieme.
       </p>
       <div className={styles.formSection}>
         <form
