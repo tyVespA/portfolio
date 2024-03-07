@@ -67,24 +67,30 @@ export default function Hero() {
       <section className={styles.heroText}>
         <div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-            consectetur perspiciatis ipsam officia accusantium hic soluta! Quae
-            sint eligendi, numquam fugiat cupiditate nulla quos, facere delectus
-            sunt consequuntur soluta? Ipsum.
+            Fin da piccolo, ho sempre amato creare cose interattive e utili.
+            Sperimentare con la progettazione di livelli su giochi come Little
+            Big Planet e Minecraft è stato il mio primo passo nell'interattività
+            digitale. Allo stesso tempo, nutrivo una forte passione per la
+            tecnologia, ma non sapevo come unire queste due passioni in un
+            percorso professionale.
             <br />
             <br />
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam
-            deleniti deserunt eius nemo fuga ducimus unde tenetur aliquid
-            molestiae nostrum maiores debitis ipsam, consequatur esse velit
-            voluptate aspernatur hic ullam!
+            Durante un precedente impiego, mi era stato chiesto di creare di una
+            pagina web per la visualizzazione di documenti PDF. Questa
+            esperienza mi ha introdotto al mondo dello sviluppo web e ho subito
+            compreso il suo potenziale.
           </p>
         </div>
         <div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-            omnis aspernatur libero amet veritatis nesciunt quisquam. Iusto
-            porro est maxime cumque iure dolores tempore labore, at
-            necessitatibus maiores eaque aliquam.
+            Da quel momento, ho investito il mio tempo e la mia energia nello
+            sviluppo delle mie competenze nel campo del web development. Ho
+            creato l'intero sito web per l'azienda e ho capito che questa
+            sarebbe stata la mia strada per il futuro. <br /> <br /> La capacità
+            di combinare la mia passione per la tecnologia con la creazione di
+            esperienze digitali coinvolgenti mi ha ispirato a perseguire una
+            carriera nel web development, dove posso continuare a innovare e
+            creare soluzioni utili e significative per gli utenti.
           </p>
         </div>
       </section>
