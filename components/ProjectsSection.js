@@ -24,8 +24,8 @@ export default function ProjectsSection() {
         >
           <ProjectCard
             src="/images/projectsImages/country-quiz-desktop-preview.jpg"
-            title="Project 1"
-            description="Lorem isapdasjd"
+            title="unicopli.org"
+            description="Sito aziendale creato utilizzando WordPress"
             href="/projectPageTemplate"
           />
         </div>
@@ -38,7 +38,7 @@ export default function ProjectsSection() {
           <ProjectCard
             src="/images/projectsImages/url-shortening-desktop-preview.jpg"
             title="Project 1"
-            description="Lorem isapdasjd"
+            description="Pagina meteo che sfrutta API."
             href="/projects"
           />
         </div>
