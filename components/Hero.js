@@ -69,10 +69,10 @@ export default function Hero() {
           <p>
             Fin da piccolo, ho sempre amato creare cose interattive e utili.
             Sperimentare con la progettazione di livelli su giochi come Little
-            Big Planet e Minecraft è stato il mio primo passo nell'interattività
-            digitale. Allo stesso tempo, nutrivo una forte passione per la
-            tecnologia, ma non sapevo come unire queste due passioni in un
-            percorso professionale.
+            Big Planet e Minecraft è stato il mio primo passo
+            nell&apos;interattività digitale. Allo stesso tempo, nutrivo una
+            forte passione per la tecnologia, ma non sapevo come unire queste
+            due passioni in un percorso professionale.
             <br />
             <br />
             Durante un precedente impiego, mi era stato chiesto di creare di una
@@ -85,12 +85,12 @@ export default function Hero() {
           <p>
             Da quel momento, ho investito il mio tempo e la mia energia nello
             sviluppo delle mie competenze nel campo del web development. Ho
-            creato l'intero sito web per l'azienda e ho capito che questa
-            sarebbe stata la mia strada per il futuro. <br /> <br /> La capacità
-            di combinare la mia passione per la tecnologia con la creazione di
-            esperienze digitali coinvolgenti mi ha ispirato a perseguire una
-            carriera nel web development, dove posso continuare a innovare e
-            creare soluzioni utili e significative per gli utenti.
+            creato l&apos;intero sito web per l&apos;azienda e ho capito che
+            questa sarebbe stata la mia strada per il futuro. <br /> <br /> La
+            capacità di combinare la mia passione per la tecnologia con la
+            creazione di esperienze digitali coinvolgenti mi ha ispirato a
+            perseguire una carriera nel web development, dove posso continuare a
+            innovare e creare soluzioni utili e significative per gli utenti.
           </p>
         </div>
       </section>
