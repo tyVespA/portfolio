@@ -100,7 +100,7 @@ body[data-theme="light"] {
   --color-text-primary: #0f0f0e;
   --color-text-secondary: #ff6b00;
   --color-text-ternary: #383838;
-  --color-text-accent: #ff9c62;
+  --color-text-accent: #ff782b;
   --color-bg-primary: #f9f9f9;
   --color-bg-secondary: #f0f4fa;
   --color-bg-toggle: #1e90ff;
@@ -253,4 +253,63 @@ h2 {
     height: auto;
     margin-top: 40px;
   }
+}
+
+/* 
+  PROJECT PAGES
+*/
+
+.projectPageMain {
+  padding-top: 50px;
+}
+
+.projectPageMain h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.projectPageLinks {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  position: relative;
+}
+
+.projectPageLinks::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 50%;
+  background-color: var(--color-border);
+  top: 50px;
+}
+
+.projectPageLinks a {
+  color: var(--color-text-accent);
+}
+
+/* to remove */
+.tempSpacer {
+  padding-bottom: 500px;
+}
+
+.underlineOnHoverAccent {
+  position: relative;
+}
+
+.underlineOnHoverAccent::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  /* left: 50%; */
+  /* right: 0; */
+  width: 0%;
+  height: 1px;
+  background-color: var(--color-text-accent);
+  transition: all 0.3s ease-in-out;
+}
+
+.underlineOnHoverAccent:hover::before {
+  left: 0;
+  width: 100%;
 }
