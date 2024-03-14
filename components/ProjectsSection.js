@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "../styles/ProjectsSection.module.css";
 import ProjectCard from "./ProjectCard";
+import ProjectCardWithLinks from "./ProjectCardWithLinks";
 
 export default function ProjectsSection() {
   const [isMobile, setIsMobile] = useState(false);
@@ -22,13 +23,26 @@ export default function ProjectsSection() {
           data-aos-once="true"
           data-aos-duration="1000"
         >
-          <ProjectCard
+          <ProjectCardWithLinks
             src="/images/projectsImages/country-quiz-desktop-preview.jpg"
-            title="unicopli.org"
+            title="unicopli.it"
             description="Sito aziendale creato utilizzando WordPress"
-            href="/projectPageTemplate"
+            liveLink="/projects/unicopli"
+            codeLink="/projects/unicopli"
           />
         </div>
+        {/* <div
+          data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
+          <ProjectCard
+            src="/images/projectsImages/country-quiz-desktop-preview.jpg"
+            title="unicopli.it"
+            description="Sito aziendale creato utilizzando WordPress"
+            href="/projects/unicopli"
+          />
+        </div> */}
         <div
           data-aos="fade-right"
           data-aos-once="true"
@@ -37,9 +51,9 @@ export default function ProjectsSection() {
         >
           <ProjectCard
             src="/images/projectsImages/url-shortening-desktop-preview.jpg"
-            title="Project 1"
-            description="Pagina meteo che sfrutta API."
-            href="/projects"
+            title="Il meteo di Pepe"
+            description="Pagina meteo che sfrutta l'API di openweathermap"
+            href="/projects/unicopli"
           />
         </div>
       </div>
@@ -51,9 +65,9 @@ export default function ProjectsSection() {
         >
           <ProjectCard
             src="/images/projectsImages/recipes-website-desktop.png"
-            title="Project 1"
-            description="Lorem isapdasjd"
-            href="/projects"
+            title="Gym Gourmet"
+            description="Un sito di ricette creato con React Router"
+            href="/projects/unicopli"
           />
         </div>
         <div
@@ -64,9 +78,9 @@ export default function ProjectsSection() {
         >
           <ProjectCard
             src="/images/projectsImages/etch-a-sketch-desktop.png"
-            title="Unic 1"
-            description="Lorem isapdasjd"
-            href="/projects"
+            title="Etch a Sketch"
+            description="Una reinterpretazione digitale della classica tavoletta"
+            href="/projects/unicopli"
           />
         </div>
       </div>
