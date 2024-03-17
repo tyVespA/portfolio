@@ -3,15 +3,25 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/ProjectCard.module.css";
 
-export default function ProjectCard({ src, title, description, href, alt }) {
-  const [isHovered, setIsHovered] = useState(false);
+export default function ProjectCard({
+  src,
+  title,
+  description,
+  liveLink,
+  codeLink,
+  alt,
+}) {
+  // const [isHovered, setIsHovered] = useState(false);
+  const [isLiveLinkHovered, setIsLiveLinkHovered] = useState(false);
+  const [isCodeLinkHovered, setIsCodeLinkHovered] = useState(false);
+
   return (
     <div className={styles.projectCardWrapper}>
-      <Link href={href}>
+      <Link href={liveLink}>
         <div
           className={styles.imageWrapper}
-          onMouseOver={() => setIsHovered(true)}
-          onMouseOut={() => setIsHovered(false)}
+          onMouseOver={() => setIsLiveLinkHovered(true)}
+          onMouseOut={() => setIsLiveLinkHovered(false)}
         >
           <Image
             src={src}
@@ -19,7 +29,7 @@ export default function ProjectCard({ src, title, description, href, alt }) {
             height={260}
             alt={alt}
             className={`${styles.imageThumbnail} ${
-              isHovered ? styles.zoomedIn : ""
+              isLiveLinkHovered ? styles.zoomedIn : ""
             }`}
             style={{ objectFit: "cover", backgroundPosition: "center" }}
           />
@@ -28,15 +38,27 @@ export default function ProjectCard({ src, title, description, href, alt }) {
       <h3 style={{ marginBottom: 10 }}>{title}</h3>
       <p style={{ marginBottom: 10 }}>{description}</p>
       <Link
-        href={href}
-        onMouseOver={() => setIsHovered(true)}
-        onMouseOut={() => setIsHovered(false)}
+        href={liveLink}
+        onMouseOver={() => setIsLiveLinkHovered(true)}
+        onMouseOut={() => setIsLiveLinkHovered(false)}
         className={`${styles.projectLink} ${"underlineOnHover"} ${
-          isHovered ? styles.underlined : ""
+          isLiveLinkHovered ? styles.underlined : ""
         }`}
       >
-        Vai al progetto →
+        Sito Live →
       </Link>
+      {codeLink && (
+        <Link
+          href={codeLink}
+          onMouseOver={() => setIsCodeLinkHovered(true)}
+          onMouseOut={() => setIsCodeLinkHovered(false)}
+          className={`${styles.projectLink} ${"underlineOnHover"} ${
+            isCodeLinkHovered ? styles.underlined : ""
+          }`}
+        >
+          Codice →
+        </Link>
+      )}
     </div>
   );
 }
