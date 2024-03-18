@@ -23,10 +23,10 @@ export default function ProjectsSection() {
           data-aos-duration="1000"
         >
           <ProjectCard
-            src="/images/projectsImages/country-quiz-desktop-preview.jpg"
+            src="/images/projectsImages/unicopliThumbnail.jpg"
             title="unicopli.it"
             description="Sito aziendale creato utilizzando WordPress"
-            liveLink="/projects/unicopli"
+            liveLink="https://www.unicopli.it/unicopli-editrice/"
           />
         </div>
         <div
@@ -36,11 +36,11 @@ export default function ProjectsSection() {
           data-aos-duration="1000"
         >
           <ProjectCard
-            src="/images/projectsImages/url-shortening-desktop-preview.jpg"
+            src="/images/projectsImages/pepesThumbnail.jpg"
             title="Il meteo di Pepe"
             description="Pagina meteo che sfrutta l'API di openweathermap"
-            liveLink="/projects/unicopli"
-            codeLink="/projects/unicopli"
+            liveLink="https://weather-page-nu.vercel.app/"
+            codeLink="https://github.com/tyVespA/weather-page"
           />
         </div>
       </div>
@@ -54,8 +54,8 @@ export default function ProjectsSection() {
             src="/images/projectsImages/recipes-website-desktop.png"
             title="Gym Gourmet"
             description="Un sito di ricette creato con React Router"
-            liveLink="/projects/unicopli"
-            codeLink="/projects/unicopli"
+            liveLink="https://tyvespa.github.io/react-recipes-website/"
+            codeLink="https://github.com/tyVespA/react-recipes-website"
           />
         </div>
         <div
@@ -68,8 +68,8 @@ export default function ProjectsSection() {
             src="/images/projectsImages/etch-a-sketch-desktop.png"
             title="Etch a Sketch"
             description="Una reinterpretazione digitale della classica tavoletta"
-            liveLink="/projects/unicopli"
-            codeLink="/projects/unicopli"
+            liveLink="https://tyvespa.github.io/Etch-a-sketch/"
+            codeLink="https://github.com/tyVespA/Etch-a-sketch"
           />
         </div>
       </div>
