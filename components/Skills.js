@@ -14,8 +14,8 @@ export default function Skills() {
       <p style={{ marginBottom: 30 }}>
         Completando corsi online come The Odin Project, FreeCodeCamp, The Joy of
         React e lavorando su numerosi progetti personali, ho sviluppato una
-        solida competenza nell'utilizzo di una varietà di tecnologie nel campo
-        dello sviluppo web.
+        solida competenza nell&apos;utilizzo di una varietà di tecnologie nel
+        campo dello sviluppo web.
       </p>
       <ul className={styles.skillList}>
         <li>
