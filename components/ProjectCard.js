@@ -17,7 +17,7 @@ export default function ProjectCard({
 
   return (
     <div className={styles.projectCardWrapper}>
-      <Link href={liveLink}>
+      <Link href={liveLink} target="_blank">
         <div
           className={styles.imageWrapper}
           onMouseOver={() => setIsLiveLinkHovered(true)}
@@ -39,6 +39,7 @@ export default function ProjectCard({
       <p style={{ marginBottom: 10 }}>{description}</p>
       <Link
         href={liveLink}
+        target="_blank"
         onMouseOver={() => setIsLiveLinkHovered(true)}
         onMouseOut={() => setIsLiveLinkHovered(false)}
         className={`${styles.projectLink} ${"underlineOnHover"} ${
@@ -50,6 +51,7 @@ export default function ProjectCard({
       {codeLink && (
         <Link
           href={codeLink}
+          target="_blank"
           onMouseOver={() => setIsCodeLinkHovered(true)}
           onMouseOut={() => setIsCodeLinkHovered(false)}
           className={`${styles.projectLink} ${"underlineOnHover"} ${
