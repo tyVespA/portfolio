@@ -72,6 +72,15 @@ export default function Skills() {
           />
           <p>MongoDB</p>
         </li>
+        <li>
+          <Image
+            src="/images/logos/angular-logo.svg"
+            height={32}
+            width={32}
+            alt="Angular Logo"
+          />
+          <p>MongoDB</p>
+        </li>
       </ul>
     </>
   );
