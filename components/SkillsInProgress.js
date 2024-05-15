@@ -79,7 +79,7 @@ export default function Skills() {
             width={32}
             alt="Angular Logo"
           />
-          <p>MongoDB</p>
+          <p>Angular</p>
         </li>
       </ul>
     </>
