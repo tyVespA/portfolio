@@ -16,7 +16,11 @@ export default function Footer() {
           Github
         </Link>
 
-        <a href="mailto:someone@example.com" className="underlineOnHover">
+        <a
+          href="mailto:marco.migliavacca.dev@gmail.com
+"
+          className="underlineOnHover"
+        >
           Contatti
         </a>
       </div>
