@@ -52,7 +52,8 @@
 
 .contactForm input::placeholder,
 .contactForm textarea::placeholder {
-  opacity: 0.9;
+  opacity: 0.5;
+  color: var(--color-text-primary);
 }
 
 .contactForm input:focus,
