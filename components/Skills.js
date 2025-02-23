@@ -12,8 +12,8 @@ export default function Skills() {
     <>
       <h2 style={{ marginBottom: 20 }}>Le tecnologie che conosco</h2>
       <p style={{ marginBottom: 30 }}>
-        Completando corsi online come The Odin Project, FreeCodeCamp, The Joy of
-        React e lavorando su numerosi progetti personali, ho sviluppato una
+        Completando corsi online come The Odin Project, The Joy of React, Full
+        Stack Open e lavorando su numerosi progetti personali, ho sviluppato una
         solida competenza nell&apos;utilizzo di una varietà di tecnologie nel
         campo dello sviluppo web.
       </p>
@@ -53,6 +53,15 @@ export default function Skills() {
             alt="JavaScript Logo"
           />
           <p>JavaScript ES6</p>
+        </li>
+        <li>
+          <Image
+            src="/images/logos/typescript-logo.png"
+            height={32}
+            width={32}
+            alt="TypeScript Logo"
+          />
+          <p>TypeScript</p>
         </li>
         <li>
           <Image

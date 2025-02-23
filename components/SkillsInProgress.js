@@ -20,15 +20,6 @@ export default function Skills() {
       <ul className={styles.skillList}>
         <li>
           <Image
-            src="/images/logos/typescript-logo.png"
-            height={32}
-            width={32}
-            alt="TypeScript Logo"
-          />
-          <p>TypeScript</p>
-        </li>
-        <li>
-          <Image
             src="/images/logos/nodejs-logo.png"
             height={32}
             width={32}
@@ -58,10 +49,37 @@ export default function Skills() {
           <Image
             src="/images/logos/bootstrap-logo.png"
             height={32}
-            width={40}
+            width={32}
             alt="Bootstrap Logo"
           />
           <p>Bootstrap</p>
+        </li>
+        <li>
+          <Image
+            src="/images/logos/angular-logo.svg"
+            height={32}
+            width={32}
+            alt="Angular Logo"
+          />
+          <p>Angular</p>
+        </li>
+        <li>
+          <Image
+            src="/images/logos/react-logo.png"
+            height={32}
+            width={32}
+            alt="React Logo"
+          />
+          <p>React Native</p>
+        </li>
+        <li>
+          <Image
+            src="/images/logos/postman-logo.svg"
+            height={32}
+            width={32}
+            alt="Angular Logo"
+          />
+          <p>Postman</p>
         </li>
         <li>
           <Image
@@ -74,12 +92,21 @@ export default function Skills() {
         </li>
         <li>
           <Image
-            src="/images/logos/angular-logo.svg"
+            src="/images/logos/mongoose-logo.png"
             height={32}
             width={32}
-            alt="Angular Logo"
+            alt="MongoDB Logo"
           />
-          <p>Angular</p>
+          <p>Mongoose</p>
+        </li>
+        <li>
+          <Image
+            src="/images/logos/sql-logo.png"
+            height={32}
+            width={32}
+            alt="MongoDB Logo"
+          />
+          <p>SQL</p>
         </li>
       </ul>
     </>
