@@ -40,7 +40,7 @@ export default function ProjectsSection() {
             src="/images/projectsImages/unicopliThumbnail.jpg"
             title="unicopli.it"
             description="Sito aziendale creato utilizzando WordPress"
-            liveLink="https://www.unicopli.it/unicopli-editrice/"
+            liveLink="https://www.unicopli.it/"
           />
         </div>
       </div>
