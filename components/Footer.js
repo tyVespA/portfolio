@@ -17,8 +17,7 @@ export default function Footer() {
         </Link>
 
         <a
-          href="mailto:marco.migliavacca.dev@gmail.com
-"
+          href="mailto:migliavaccamarco10@gmail.com"
           className="underlineOnHover"
         >
           Contatti

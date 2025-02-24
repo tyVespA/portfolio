@@ -10,9 +10,9 @@ export default function Skills() {
         Le tecnologie che sto studiando
       </h2>
       <p style={{ marginBottom: 30 }}>
-        Il mondo del web mi appassiona profondamente e cerco costantemente di
-        arricchire il mio bagaglio di competenze attraverso l&apos;apprendimento
-        di nuove tecnologie.
+        Il mondo della programmazione mi appassiona profondamente e cerco
+        costantemente di arricchire il mio bagaglio di competenze attraverso
+        l&apos;apprendimento di nuove tecnologie.
         {/* <br /> Sono entusiasta di mettere in pratica queste
         nuove conoscenze per lavorare a progetti sempre più complessi,
         interessanti e utili. */}
