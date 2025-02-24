@@ -51,9 +51,9 @@ export default function ProjectsSection() {
           data-aos-duration="1000"
         >
           <ProjectCard
-            src="/images/projectsImages/pepesThumbnail.jpg"
+            src="/images/projectsImages/meteoThumbnail.jpg"
             title="Il meteo di Pepe"
-            description="Pagina meteo che sfrutta l'API di openweathermap"
+            description="SPA che sfrutta l'API di openweathermap"
             liveLink="https://weather-page-nu.vercel.app/"
             codeLink="https://github.com/tyVespA/weather-page"
           />
@@ -67,7 +67,7 @@ export default function ProjectsSection() {
           <ProjectCard
             src="/images/projectsImages/etch-a-sketch-desktop.png"
             title="Etch a Sketch"
-            description="Una reinterpretazione digitale della classica tavoletta"
+            description="Una reinterpretazione digitale del classico gioco"
             liveLink="https://tyvespa.github.io/Etch-a-sketch/"
             codeLink="https://github.com/tyVespA/Etch-a-sketch"
           />

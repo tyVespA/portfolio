@@ -70,28 +70,28 @@ export default function Hero() {
             Sin da piccolo, ho sempre avuto una passione per la creazione di
             esperienze interattive. Sperimentavo progettando livelli su giochi
             come Little Big Planet e Minecraft, affascinato dall’idea di
-            costruire mondi digitali. Allo stesso tempo, la tecnologia mi
-            incuriosiva profondamente, ma non sapevo ancora come trasformare
-            queste passioni in una carriera.
+            costruire mondi digitali. Allo stesso tempo, il mondo della
+            programmazione mi incuriosiva profondamente, ma non sapevo ancora
+            come trasformare queste passioni in una carriera.
             <br />
             <br />
-            La svolta è arrivata quando, durante un lavoro precedente, mi è
+            La svolta è arrivata quando, durante un impiego precedente, mi è
             stato chiesto di realizzare una pagina web per visualizzare
             documenti PDF. In quel momento ho scoperto il mondo dello sviluppo
             web e ne ho subito riconosciuto il potenziale. Da lì, ho iniziato a
             studiare e applicare le mie conoscenze, fino a sviluppare l’intero
-            sito web dell’azienda.
+            sito web dell’azienda. <br /> <br />
           </p>
         </div>
         <div>
           <p>
-            Oggi, unisco creatività e tecnologia per progettare soluzioni
-            digitali funzionali e coinvolgenti. Il web development è diventato
-            il mio percorso, un campo in cui posso innovare e costruire
-            esperienze significative per gli utenti. <br /> Ogni progetto è
-            un’opportunità per imparare, sperimentare e creare qualcosa di
-            valore, e non vedo l’ora di portare la mia passione e le mie
-            competenze in nuove sfide professionali.
+            Oggi, cerco di unire creatività e tecnologia per progettare
+            soluzioni digitali funzionali e coinvolgenti. Il web development è
+            diventato il mio percorso, un campo in cui posso costruire
+            esperienze utili e significative per gli utenti. <br /> Ogni
+            progetto è un’opportunità per imparare, sperimentare e creare
+            qualcosa di valore, e non vedo l’ora di portare la mia passione e le
+            mie competenze in nuove sfide professionali.
           </p>
         </div>
       </section>
