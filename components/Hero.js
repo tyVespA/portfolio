@@ -67,30 +67,31 @@ export default function Hero() {
       <section className={styles.heroText}>
         <div>
           <p>
-            Fin da piccolo, ho sempre amato creare cose interattive e utili.
-            Sperimentare con la progettazione di livelli su giochi come Little
-            Big Planet e Minecraft è stato il mio primo passo
-            nell&apos;interattività digitale. Allo stesso tempo, nutrivo una
-            forte passione per la tecnologia, ma non sapevo come unire queste
-            due passioni in un percorso professionale.
+            Sin da piccolo, ho sempre avuto una passione per la creazione di
+            esperienze interattive. Sperimentavo progettando livelli su giochi
+            come Little Big Planet e Minecraft, affascinato dall’idea di
+            costruire mondi digitali. Allo stesso tempo, la tecnologia mi
+            incuriosiva profondamente, ma non sapevo ancora come trasformare
+            queste passioni in una carriera.
             <br />
             <br />
-            Durante un precedente impiego, mi era stato chiesto di creare di una
-            pagina web per la visualizzazione di documenti PDF. Questa
-            esperienza mi ha introdotto al mondo dello sviluppo web e ho subito
-            compreso il suo potenziale.
+            La svolta è arrivata quando, durante un lavoro precedente, mi è
+            stato chiesto di realizzare una pagina web per visualizzare
+            documenti PDF. In quel momento ho scoperto il mondo dello sviluppo
+            web e ne ho subito riconosciuto il potenziale. Da lì, ho iniziato a
+            studiare e applicare le mie conoscenze, fino a sviluppare l’intero
+            sito web dell’azienda.
           </p>
         </div>
         <div>
           <p>
-            Da quel momento, ho investito il mio tempo e la mia energia nello
-            sviluppo delle mie competenze nel campo del web development. Ho
-            creato l&apos;intero sito web per l&apos;azienda e ho capito che
-            questa sarebbe stata la mia strada per il futuro. <br /> <br /> La
-            capacità di combinare la mia passione per la tecnologia con la
-            creazione di esperienze digitali coinvolgenti mi ha ispirato a
-            perseguire una carriera nel web development, dove posso continuare a
-            innovare e creare soluzioni utili e significative per gli utenti.
+            Oggi, unisco creatività e tecnologia per progettare soluzioni
+            digitali funzionali e coinvolgenti. Il web development è diventato
+            il mio percorso, un campo in cui posso innovare e costruire
+            esperienze significative per gli utenti. <br /> Ogni progetto è
+            un’opportunità per imparare, sperimentare e creare qualcosa di
+            valore, e non vedo l’ora di portare la mia passione e le mie
+            competenze in nuove sfide professionali.
           </p>
         </div>
       </section>
