@@ -23,10 +23,11 @@ export default function ProjectsSection() {
           data-aos-duration="1000"
         >
           <ProjectCard
-            src="/images/projectsImages/unicopliThumbnail.jpg"
-            title="unicopli.it"
-            description="Sito aziendale creato utilizzando WordPress"
-            liveLink="https://www.unicopli.it/unicopli-editrice/"
+            src="/images/projectsImages/canileThumbnail.jpg"
+            title="Canile di Macondo"
+            description="Sito full-fledged sviluppato con NextJS"
+            liveLink="https://caniledimacondo.net/"
+            codeLink="https://github.com/tyVespA/shelter-testing"
           />
         </div>
         <div
@@ -36,11 +37,10 @@ export default function ProjectsSection() {
           data-aos-duration="1000"
         >
           <ProjectCard
-            src="/images/projectsImages/pepesThumbnail.jpg"
-            title="Il meteo di Pepe"
-            description="Pagina meteo che sfrutta l'API di openweathermap"
-            liveLink="https://weather-page-nu.vercel.app/"
-            codeLink="https://github.com/tyVespA/weather-page"
+            src="/images/projectsImages/unicopliThumbnail.jpg"
+            title="unicopli.it"
+            description="Sito aziendale creato utilizzando WordPress"
+            liveLink="https://www.unicopli.it/unicopli-editrice/"
           />
         </div>
       </div>
@@ -51,11 +51,11 @@ export default function ProjectsSection() {
           data-aos-duration="1000"
         >
           <ProjectCard
-            src="/images/projectsImages/recipes-website-desktop.png"
-            title="Gym Gourmet"
-            description="Un sito di ricette creato con React Router"
-            liveLink="https://tyvespa.github.io/react-recipes-website/"
-            codeLink="https://github.com/tyVespA/react-recipes-website"
+            src="/images/projectsImages/pepesThumbnail.jpg"
+            title="Il meteo di Pepe"
+            description="Pagina meteo che sfrutta l'API di openweathermap"
+            liveLink="https://weather-page-nu.vercel.app/"
+            codeLink="https://github.com/tyVespA/weather-page"
           />
         </div>
         <div
