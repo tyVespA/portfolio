@@ -77,7 +77,7 @@ export default function Skills() {
             src="/images/logos/postman-logo.svg"
             height={32}
             width={32}
-            alt="Angular Logo"
+            alt="Postman Logo"
           />
           <p>Postman</p>
         </li>
@@ -95,7 +95,7 @@ export default function Skills() {
             src="/images/logos/mongoose-logo.png"
             height={32}
             width={32}
-            alt="MongoDB Logo"
+            alt="Mongoose Logo"
           />
           <p>Mongoose</p>
         </li>
@@ -104,9 +104,18 @@ export default function Skills() {
             src="/images/logos/sql-logo.png"
             height={32}
             width={32}
-            alt="MongoDB Logo"
+            alt="SQL Logo"
           />
           <p>SQL</p>
+        </li>
+        <li>
+          <Image
+            src="/images/logos/php-logo.png"
+            height={32}
+            width={32}
+            alt="PHP Logo"
+          />
+          <p>PHP</p>
         </li>
       </ul>
     </>
