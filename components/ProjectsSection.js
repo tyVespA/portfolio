@@ -27,7 +27,7 @@ export default function ProjectsSection() {
             title="Canile di Macondo"
             description="Sito full-fledged sviluppato con NextJS"
             liveLink="https://caniledimacondo.net/"
-            codeLink="https://github.com/tyVespA/shelter-testing"
+            codeLink="https://github.com/tyVespA/canile-di-macondo"
           />
         </div>
         <div
@@ -55,7 +55,7 @@ export default function ProjectsSection() {
             title="Il meteo di Pepe"
             description="SPA che sfrutta l'API di openweathermap"
             liveLink="https://weather-page-nu.vercel.app/"
-            codeLink="https://github.com/tyVespA/weather-page"
+            codeLink="https://github.com/tyVespA/meteo-di-pepe"
           />
         </div>
         <div
