@@ -54,15 +54,7 @@ export default function Skills() {
           />
           <p>JavaScript ES6</p>
         </li>
-        <li>
-          <Image
-            src="/images/logos/typescript-logo.png"
-            height={32}
-            width={32}
-            alt="TypeScript Logo"
-          />
-          <p>TypeScript</p>
-        </li>
+
         <li>
           <Image
             src="/images/logos/api-logo.png"
@@ -89,6 +81,51 @@ export default function Skills() {
             alt="Next Logo"
           />
           <p>Next.js</p>
+        </li>
+        <li>
+          <Image
+            src="/images/logos/nodejs-logo.png"
+            height={32}
+            width={32}
+            alt="NodeJS Logo"
+          />
+          <p>NodeJS</p>
+        </li>
+        <li>
+          <Image
+            src="/images/logos/expressjs-logo.png"
+            height={32}
+            width={32}
+            alt="ExpressJS Logo"
+          />
+          <p>ExpressJS</p>
+        </li>
+        <li>
+          <Image
+            src="/images/logos/postman-logo.svg"
+            height={32}
+            width={32}
+            alt="Postman Logo"
+          />
+          <p>Postman</p>
+        </li>
+        <li>
+          <Image
+            src="/images/logos/mongodb-logo.svg"
+            height={32}
+            width={32}
+            alt="MongoDB Logo"
+          />
+          <p>MongoDB</p>
+        </li>
+        <li>
+          <Image
+            src="/images/logos/mongoose-logo.png"
+            height={32}
+            width={32}
+            alt="Mongoose Logo"
+          />
+          <p>Mongoose</p>
         </li>
         <li>
           <Image
