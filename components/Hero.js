@@ -33,7 +33,7 @@ export default function Hero() {
             data-aos-duration="1000"
           >
             <span className={`${styles.accented} ${styles.animatedGradient}`}>
-              Web Developer
+              Full Stack Developer
             </span>
           </h2>
 
