@@ -15,7 +15,7 @@ export default function Skills() {
         Completando corsi online come The Odin Project, The Joy of React, Full
         Stack Open e lavorando su numerosi progetti personali, ho sviluppato una
         solida competenza nell&apos;utilizzo di una varietà di tecnologie nel
-        campo dello sviluppo web.
+        campo dello sviluppo full stack.
       </p>
       <ul className={styles.skillList}>
         <li>

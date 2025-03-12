@@ -65,12 +65,12 @@ export default function Skills() {
         </li>
         <li>
           <Image
-            src="/images/logos/sql-logo.png"
+            src="/images/logos/postgre-logo.png"
             height={32}
             width={32}
             alt="SQL Logo"
           />
-          <p>SQL</p>
+          <p>PostgreSQL</p>
         </li>
         <li>
           <Image

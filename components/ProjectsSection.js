@@ -13,7 +13,7 @@ export default function ProjectsSection() {
       <h2 style={{ marginBottom: 20 }}>Alcuni dei miei progretti</h2>
       <p style={{ marginBottom: 40 }}>
         Durante il mio percorso di studi, ho sviluppato numerosi progetti che
-        hanno arricchito la mia esperienza come web developer. Di seguito,
+        hanno arricchito la mia esperienza come sviluppatore. Di seguito,
         presento alcuni dei miei lavori più significativi.
       </p>
       <div className={styles.projectsContainer}>

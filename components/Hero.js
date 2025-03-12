@@ -88,10 +88,10 @@ export default function Hero() {
             Oggi, cerco di unire creatività e tecnologia per progettare
             soluzioni digitali funzionali e coinvolgenti. Il web development è
             diventato il mio percorso, un campo in cui posso costruire
-            esperienze utili e significative per gli utenti. <br /> Ogni
-            progetto è un’opportunità per imparare, sperimentare e creare
-            qualcosa di valore, e non vedo l’ora di portare la mia passione e le
-            mie competenze in nuove sfide professionali.
+            esperienze utili e significative per gli utenti. Ogni progetto è
+            un’opportunità per imparare, sperimentare e creare qualcosa di
+            valore, e non vedo l’ora di portare la mia passione e le mie
+            competenze in nuove sfide professionali.
           </p>
         </div>
       </section>
