@@ -58,7 +58,7 @@ export default function ProjectCard({
             isCodeLinkHovered ? styles.underlined : ""
           }`}
         >
-          Codice →
+          Codice e descrizione →
         </Link>
       )}
     </div>
