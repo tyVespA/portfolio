@@ -74,6 +74,15 @@ export default function Skills() {
         </li>
         <li>
           <Image
+            src="/images/logos/firebase-logo.svg"
+            height={32}
+            width={32}
+            alt="PHP Logo"
+          />
+          <p>Firebase</p>
+        </li>
+        <li>
+          <Image
             src="/images/logos/php-logo.png"
             height={32}
             width={32}
