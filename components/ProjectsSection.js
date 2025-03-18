@@ -38,9 +38,10 @@ export default function ProjectsSection() {
         >
           <ProjectCard
             src="/images/projectsImages/unicopliThumbnail.jpg"
-            title="unicopli.it"
-            description="Sito aziendale creato utilizzando WordPress"
-            liveLink="https://www.unicopli.it/"
+            title="TracciaPeso"
+            description="Full Stack MERN App con autenticazione"
+            liveLink="https://weight-tracker-xyes.onrender.com/"
+            codeLink="https://github.com/tyVespA/TracciaPeso"
           />
         </div>
       </div>
