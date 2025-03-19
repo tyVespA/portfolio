@@ -37,10 +37,10 @@ export default function ProjectsSection() {
           data-aos-duration="1000"
         >
           <ProjectCard
-            src="/images/projectsImages/unicopliThumbnail.jpg"
+            src="/images/projectsImages/tracciaPesoThumbnail.jpg"
             title="TracciaPeso"
             description="Full Stack MERN App con autenticazione"
-            liveLink="https://weight-tracker-xyes.onrender.com/"
+            liveLink="https://traccia-peso.vercel.app/"
             codeLink="https://github.com/tyVespA/TracciaPeso"
           />
         </div>
