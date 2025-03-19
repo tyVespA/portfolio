@@ -14,6 +14,8 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Questrial&display=swap"
           rel="stylesheet"
         />
+        <link rel="preload" href="/images/heroImg-light.jpg" as="image" />
+        <link rel="preload" href="/images/heroImg-dark.jpg" as="image" />
       </Head>
       <body>
         <Main />
