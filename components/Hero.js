@@ -6,10 +6,12 @@ import { ThemeContext } from "@/pages/_app";
 export default function Hero() {
   const { activeTheme } = useContext(ThemeContext);
 
-  const heroImagePath =
-    activeTheme === "light"
-      ? "/images/heroImg-light.jpg"
-      : "/images/heroImg-dark.jpg";
+  // const heroImagePath =
+  //   activeTheme === "light"
+  //     ? "/images/heroImg-light.jpg"
+  //     : "/images/heroImg-dark.jpg";
+
+  const heroImagePath = "/images/heroImg-light.jpg";
 
   return (
     <>
