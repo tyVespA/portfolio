@@ -26,7 +26,7 @@ export default function ProjectsSection() {
             src="/images/projectsImages/canileThumbnail.jpg"
             title="Canile di Macondo"
             description="Sito full-fledged sviluppato con NextJS"
-            liveLink="https://canile-di-macondo-27or8sb4x-tyvespas-projects.vercel.app/"
+            liveLink="https://canile-di-macondo.vercel.app/"
             codeLink="https://github.com/tyVespA/canile-di-macondo"
           />
         </div>
